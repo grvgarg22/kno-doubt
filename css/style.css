@@ -435,6 +435,8 @@ a:hover { text-decoration: none; }
   .kno_d_institute_page .kno_d_jumbotron .kno_d_profile_prew .card .our_expertise ul li img { margin: 0; }
   .kno_d_institute_page .kno_d_section_2 .coaches_container_header .filters select { margin: 0.5rem; width: 45%; }
   .kno_d_coaches_thumbnail .card-header .card-image { width: 40%; float: left; margin-right: 0.5rem; }
-  .kno_d_institute_page .kno_d_section_2 .coaches_container_header .filters { display: block; } }
+  .kno_d_institute_page .kno_d_section_2 .coaches_container_header .filters { display: block; }
+  .kno_d_student_reg_page .kno_d_reg_form_container .kno_d_form_title { padding: 0.5rem; margin-left: 0; font-size: 1.5rem; }
+  .kno_d_student_reg_page .kno_d_reg_form_container { padding: 1rem; } }
 
 /*# sourceMappingURL=style.css.map */
