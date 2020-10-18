@@ -422,6 +422,16 @@
 	.kno_d_reg_form {padding: 0.5rem; margin-left: 0;}
 	.kno_d_reg_form .btn_main {margin: 2rem 0;}
 	.kno_d_reg_form .check_buttons label {padding: 0.5rem 1.5rem;}
+	.kno_d_coach_page .kno_d_jumbotron .kno_d_profile_prew {width: 100%;}
+	.kno_d_coach_page .coaches_container {width: 80%;}
+	.kno_d_jumbotron .kno_d_profile_prew .card .our_expertise ul {justify-content: space-between;}
+	.kno_d_coach_page .kno_d_jumbotron .kno_d_profile_prew .coach_detailed_profile .our_expertise ul li {margin: 0.5rem;}
+	.kno_d_coach_page .kno_d_jumbotron .kno_d_profile_prew .coach_detailed_profile .our_expertise ul li img {width: 3rem;}
+	.kno_d_coach_page .kno_d_jumbotron .kno_d_profile_prew .coach_detailed_profile .our_expertise ul li span {font-size: 0.8rem;}
+	.coach_tabs .tab-content .card .card-body .card-title {font-size: 0.9rem;}
+	.kno_d_institute_page .kno_d_jumbotron .kno_d_profile_prew {width: 100%;}
+	.kno_d_institute_page .kno_d_jumbotron .kno_d_profile_prew .card .our_expertise ul {justify-content: flex-start;}
+	.kno_d_home_page .kno_d_section_2 .coaches_container {width: 100%; padding: 2rem;}
 }
 
 @media only screen and (min-width: 561px) and (max-width: 1020px) {
@@ -430,6 +440,10 @@
 	.kno_d_coach_page .kno_d_section_2 .coach_tabs {width: 100%; padding: 2rem;}
 	.kno_d_coach_page .coaches_container {width: 90%;}
 	.kno_d_coach_page {margin-bottom: 3rem;}
+	.kno_d_coach_page .kno_d_jumbotron .kno_d_profile_prew .profile_video_link svg {margin: 0;}
+	.kno_d_jumbotron .kno_d_profile_prew .card .our_expertise ul {justify-content: space-between;}
+	.kno_d_institute_page .kno_d_jumbotron .kno_d_profile_prew {width: 100%;}	
+	.kno_d_institute_page .kno_d_jumbotron .kno_d_profile_prew .card .our_expertise ul {justify-content: flex-start;}
 }
 
 @media only screen and (max-width: 770px) {
@@ -496,4 +510,10 @@
 	}
 	.kno_d_coach_page .kno_d_section_2 .coach_tabs .ask_me_anything p {display: none;}
 	.kno_d_coach_page .coach_tabs .tab-content .card .card-body .card-title {font-size: 1rem;}
+	.kno_d_institute_page .kno_d_jumbotron .kno_d_profile_prew .card-img-top {width: 100%; margin: 0.5rem 0;}
+	.kno_d_institute_page .kno_d_jumbotron .kno_d_profile_prew {width: 100%;}
+	.kno_d_jumbotron .kno_d_profile_prew .card .our_expertise ul {justify-content: space-between;}
+	.kno_d_institute_page .kno_d_jumbotron .kno_d_profile_prew .card .our_expertise ul li img {margin: 0;}
+	.kno_d_institute_page .kno_d_section_2 .coaches_container_header .filters select {margin: 0.5rem 0;}
+	.kno_d_coaches_thumbnail .card-header .card-image {width: 40%; float: left; margin-right: 0.5rem;}
 }
