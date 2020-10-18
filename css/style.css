@@ -375,7 +375,8 @@ a:hover { text-decoration: none; }
   .kno_d_home_page .kno_d_section_4 p { font-size: 1rem; width: 100%; }
   .kno_d_jumbotron .kno_d_profile_prew .card .our_expertise ul li span { font-size: 0.8rem; }
   .kno_d_jumbotron .kno_d_profile_prew .card .grades li span, .kno_d_jumbotron .kno_d_profile_prew .card .grades li p { font-size: 0.8rem; } }
-@media only screen and (max-width: 560px) { .kno_d_cr_page, .kno_d_insti_reg_page { margin-bottom: 3rem; }
+@media only screen and (max-width: 560px) { .profile_row { margin: 2rem 0; }
+  .kno_d_cr_page, .kno_d_insti_reg_page { margin-bottom: 3rem; }
   .kno_d_cr_page .kno_d_reg_form_container, .kno_d_insti_reg_page .kno_d_reg_form_container { padding: 1rem; }
   .kno_d_cr_page .kno_d_reg_form_container .kno_d_form_title { padding: 0; margin-left: 0; font-size: 1.5rem; }
   .kno_d_reg_steps { margin: 2rem 0; }
@@ -402,6 +403,8 @@ a:hover { text-decoration: none; }
   .kno_d_coach_page .kno_d_jumbotron .kno_d_profile_prew .coach_profile_sidebar .card-body .card-text, .kno_d_coach_page .kno_d_jumbotron .kno_d_profile_prew .coach_profile_sidebar .card-body .card-title { font-size: 1.5rem; }
   .kno_d_coach_page .kno_d_jumbotron .kno_d_profile_prew .coach_profile_sidebar .card-body p { font-size: 1.2rem; }
   .kno_d_coach_page .kno_d_section_2 .coach_tabs { width: 100%; }
-  .kno_d_coach_page .kno_d_section_2 .coach_tabs .tab-text { width: 100%; } }
+  .kno_d_coach_page .kno_d_section_2 .coach_tabs .tab-text { width: 100%; }
+  .kno_d_coach_page .coaches_container { width: 100%; }
+  .kno_d_coaches_thumbnail .card-header { display: block; padding: 1rem; } }
 
 /*# sourceMappingURL=style.css.map */
