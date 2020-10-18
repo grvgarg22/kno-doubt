@@ -361,7 +361,11 @@ a:hover { text-decoration: none; }
   .kno_d_reg_form { padding: 0.5rem; margin-left: 0; }
   .kno_d_reg_form .btn_main { margin: 2rem 0; }
   .kno_d_reg_form .check_buttons label { padding: 0.5rem 1.5rem; } }
-@media only screen and (min-width: 561px) and (max-width: 1020px) { .kno_d_jumbotron .kno_d_profile_prew .card .our_expertise ul li img { width: 4rem; } }
+@media only screen and (min-width: 561px) and (max-width: 1020px) { .kno_d_jumbotron .kno_d_profile_prew .card .our_expertise ul li img { width: 4rem; }
+  .kno_d_coach_page .kno_d_jumbotron .kno_d_profile_prew { width: 100%; }
+  .kno_d_coach_page .kno_d_section_2 .coach_tabs { width: 100%; padding: 2rem; }
+  .kno_d_coach_page .coaches_container { width: 90%; }
+  .kno_d_coach_page { margin-bottom: 3rem; } }
 @media only screen and (max-width: 770px) { .navbar-nav:last-child { display: flex; flex-flow: wrap; justify-content: flex-start; }
   .kno_d_home_page .kno_d_section_1 p { font-size: 1rem; }
   .kno_d_home_page .kno_d_section_1 p svg { margin: 0; }
@@ -376,7 +380,7 @@ a:hover { text-decoration: none; }
   .kno_d_jumbotron .kno_d_profile_prew .card .our_expertise ul li span { font-size: 0.8rem; }
   .kno_d_jumbotron .kno_d_profile_prew .card .grades li span, .kno_d_jumbotron .kno_d_profile_prew .card .grades li p { font-size: 0.8rem; } }
 @media only screen and (max-width: 560px) { .profile_row { margin: 2rem 0; }
-  .kno_d_cr_page, .kno_d_insti_reg_page { margin-bottom: 3rem; }
+  .kno_d_cr_page, .kno_d_insti_reg_page, .kno_d_coach_page { margin-bottom: 3rem; }
   .kno_d_cr_page .kno_d_reg_form_container, .kno_d_insti_reg_page .kno_d_reg_form_container { padding: 1rem; }
   .kno_d_cr_page .kno_d_reg_form_container .kno_d_form_title { padding: 0; margin-left: 0; font-size: 1.5rem; }
   .kno_d_reg_steps { margin: 2rem 0; }
@@ -405,6 +409,9 @@ a:hover { text-decoration: none; }
   .kno_d_coach_page .kno_d_section_2 .coach_tabs { width: 100%; }
   .kno_d_coach_page .kno_d_section_2 .coach_tabs .tab-text { width: 100%; }
   .kno_d_coach_page .coaches_container { width: 100%; }
-  .kno_d_coaches_thumbnail .card-header { display: block; padding: 1rem; } }
+  .kno_d_coaches_thumbnail .card-header { display: block; padding: 1rem; }
+  .kno_d_coach_page .coaches_container .coaches_container_row .card-header .card-image { text-align: center; }
+  .kno_d_coach_page .coaches_container .coaches_container_row .card-header .card-image img { width: 50%; }
+  .kno_d_coach_page .kno_d_section_2 .coach_tabs .ask_me_anything p { display: none; } }
 
 /*# sourceMappingURL=style.css.map */
