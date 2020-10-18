@@ -1,0 +1,481 @@
+@import 'variables.scss';
+@import 'modules.scss';
+
+
+/*************** HOME PAGE ***************/
+.kno_d_home_page {
+	.kno_d_section_1 {border-radius: 0; border: none; text-align: center; position: relative; margin-bottom: 3rem;
+		img {width: 90%; margin: 1rem auto;}
+		h3 {font-weight: 700; font-size: 3rem;}
+		p {font-family: 'Libre Baskerville', serif; font-style: italic; color: $primary-color; font-size: 1.5rem; margin-bottom: $section-margin;
+			svg {font-size: 1.5rem; background-color: $primary-color; color: #fff; border-radius: 1rem; padding: 3px; margin: 0.5rem;}
+			span {font-family: $font-family; font-style: normal;}
+		}
+		.kno_d_question_section {width: 85%; position: absolute; bottom: -10.5rem; left: 7.5%; background-color: $primary-color; padding: 2rem 5rem; border-radius: 1rem;
+			h3 {margin-bottom: 2rem; font-weight: 300; color: #fff;}
+			.dropdown-toggle {width: 100%; background-color: #fff; color: #111; text-align: left; border-radius: 0;}
+			.dropdown-toggle:after {float: right; margin-top: 0.5rem; border-top: .4em solid; border-right: .4em solid transparent; border-left: .4em solid transparent;}
+		}
+	}
+	.kno_d_section_2 {padding: 10rem 0 5rem; background-color: $secondary-color; margin: $section-margin 0;
+		.coaches_container {width: 85%; margin: auto;
+			.section_title {margin-bottom: 2rem;}
+			.coaches_container_row { height: 48rem; overflow: auto; padding: 0 1rem 0 0;}
+		}
+	}
+	.kno_d_section_3 {margin: $section-margin auto; 
+		.section_title {width: 85%; margin: 2rem auto; text-align: center; font-weight: 300; font-size: 2rem;}
+		#testimonial_carousel { margin: 2rem auto;
+			.carousel-inner {width: 85%; margin: auto;
+				.card {border: none; border-radius: 0; position: relative;
+					.card-body {padding: 1rem 0;
+						.card-title {font-weight: 300; font-size: 1rem;
+							span {font-weight: 700;}
+						}
+					}
+					.test_video_icon_overlay {position: absolute; top: 1rem; right: 1rem; background-color: $primary-color; padding: 0.15rem 0.375rem; border-radius: 1rem;
+						a { color: #fff;}
+					}
+				}
+			}
+			.carousel-control-prev, .carousel-control-next {width: 11%; top: -6rem;}
+			.carousel-control-prev-icon, .carousel-control-next-icon {background-image: none; color: #000; font-size: 2rem;}
+			.carousel-control-prev {left: 0rem;}
+			.carousel-control-next {right: 1rem;}
+			
+			/* medium - display 2  */
+			@media (min-width: 768px) {
+				.carousel-inner .carousel-item-right.active, .carousel-inner .carousel-item-next {transform: translateX(50%);}
+				.carousel-inner .carousel-item-left.active, .carousel-inner .carousel-item-prev {transform: translateX(-50%);}
+			}
+
+			/* large - display 3 */
+			@media (min-width: 992px) {
+				.carousel-inner .carousel-item-right.active, .carousel-inner .carousel-item-next {transform: translateX(33.33%);}
+				.carousel-inner .carousel-item-left.active, .carousel-inner .carousel-item-prev {transform: translateX(-33.33%);}
+			}
+
+			@media (max-width: 768px) {
+				.carousel-inner .carousel-item>div {display: block;}
+				.carousel-inner .carousel-item>div:first-child {display: block;}
+			}
+			@media (max-width: 551px) {
+				.carousel-inner .carousel-item>div {display: none;}
+				.carousel-inner .carousel-item>div:first-child {display: block;}
+			}
+
+			.carousel-inner .carousel-item.active, .carousel-inner .carousel-item-next, .carousel-inner .carousel-item-prev {display: flex;}
+			.carousel-inner .carousel-item-right, .carousel-inner .carousel-item-left {transform: translateX(0);}
+		}
+	}
+	.kno_d_section_4 {width: 85%; margin: $section-margin auto; 
+		.section_title {text-align: center; font-weight: 300; font-size: 2.5rem; margin-bottom: 2rem;}
+		p {text-align: center; font-size: 1.7rem; font-weight: 300; width: 80%; margin: 2rem auto;}
+	}
+}
+
+
+/*************** Coach Registration Page ***************/
+.kno_d_cr_page {margin-bottom: 10rem;
+	.kno_d_cr_page_row {margin: 0;
+		.kno_d_cr_page_col {padding: 0; margin: 0;}
+	}
+	.kno_d_reg_form_container {padding: 2rem; margin: 3rem 0;
+		.kno_d_form_title {padding: 0.5rem 2rem; margin-left: $sub-section-margin;
+			span {color: $primary-color;}
+		}
+		.kno_d_reg_steps {
+			.steps:last-child {visibility: hidden;}
+		}
+	}
+	.kno_d_pro_view_container {background-color: $secondary-color; padding: 2rem; height: auto; overflow: auto;
+		.kno_d_jumbotron {
+			.coach_tabs {background-color: #f7f7f7; margin: 3rem -1rem 0; padding: 3rem 0 3rem 2rem;}
+		}
+	}
+}
+
+.kno_d_reg_page_2 {
+	.kno_d_jumbotron {
+		.card {
+			.card-img-top {width: 30%; margin: 2rem auto 0.5rem;}
+			.linkedin_profile_link {text-align: center; margin-bottom: 2rem;
+				.card-img-top {width: 1.5rem; margin: 0.5rem auto;}
+			}
+			.our_expertise {
+				ul {
+					li {
+						img {width: 4rem;margin: 0.5rem;}
+					}
+				}
+			}
+		}
+	}
+}
+
+
+/*************** Institute Registration Page ***************/
+.kno_d_insti_reg_page {margin-bottom: 10rem;
+	.kno_d_cr_page_row {margin: 0;
+		.kno_d_cr_page_col {padding: 0; margin: 0;}
+	}
+	.kno_d_reg_form_container {padding: 2rem; margin: 3rem 0;
+		.kno_d_form_title {padding: 0.5rem 2rem; margin-left: $sub-section-margin;
+			span {color: $primary-color;}
+		}
+	}
+	.kno_d_pro_view_container {background-color: $secondary-color; padding: 2rem; height: auto; overflow: auto;
+		.kno_d_jumbotron {
+			.coach_tabs {background-color: #f7f7f7; margin: 3rem -1rem 0; padding: 3rem 0 3rem 2rem;}
+		}
+	}
+	.multi_upload {
+		label {width: 100%; font-size: 1.2rem;}
+		.thumbnail_img {clear: both; margin: 1rem 0;
+			p {margin-bottom: 0;
+				span {font-weight: 500;}
+			}
+		}
+	}
+}
+
+
+/*************** Student Registration Page ***************/
+.kno_d_student_reg_page {
+	.kno_d_cr_page_row {margin: 0;
+		.kno_d_cr_page_col {padding: 0; margin: 0;}
+	}
+	.kno_d_reg_form_container {padding: 2rem; margin: 3rem 0;
+		.kno_d_form_title {padding: 0.5rem 2rem; margin-left: $sub-section-margin;
+			span {color: $primary-color;}
+		}
+	}
+	.kno_d_pro_view_container {background-color: $secondary-color; padding: 2rem; height: auto; overflow: auto;
+		.kno_d_jumbotron {
+			.coach_tabs {background-color: #f7f7f7; margin: 3rem -1rem 0; padding: 3rem 0 3rem 2rem;}
+		}
+	}
+	.kno_d_jumbotron {height: 65rem;}
+}
+
+
+/*************** Institute Detailed Profile Page ***************/
+.kno_d_institute_page {
+	.kno_d_jumbotron {margin-top: 0; border-top: none; border-left: none; border-right: none; margin-bottom: 0;
+		.kno_d_profile_prew {width: 85%; margin: 0.5rem auto; padding: 0.5rem 0;
+			.institute_img_grp {
+				.card {margin: 0.5rem 0; padding: 0;}
+			}
+			.card {
+				p {font-size: 1rem;}
+				.our_expertise {
+					h5 {font-size: 1rem; font-weight: 600;}
+					ul {
+						li {
+							img {width: 3.5rem; margin: 0.5rem 1rem;}
+							span {font-size: 0.8rem;}
+						}
+					}
+				}
+			}
+		}
+	}
+	.kno_d_section_2 {padding: 3rem 0 3rem; margin: 0rem 0;
+		.coaches_container_header {display: flex; flex-wrap: wrap; justify-content: space-between;
+			.section_title {margin: 1rem 0;}
+			.filters {display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center;
+				p {margin: 0.5rem; font-size: 0.8rem; color: #666;}
+				select {border-radius: 0; margin: 0 0.5rem; background-color: transparent; padding: 0.25rem 0.5rem;}
+			}
+		}
+	}
+}
+
+
+/*************** Coach Detailed Profile Page ***************/
+.kno_d_coach_page {margin-bottom: 10rem;
+	.kno_d_jumbotron {margin-top: 0; border-top: none; border-left: none; border-right: none; margin-bottom: 0;
+		.kno_d_profile_prew {width: 85%; margin: 2rem auto; padding: 2rem 1rem;
+			.linkedin_profile_link {text-align: center; margin-bottom: 1rem;
+				.card-img-top {width: 1.5rem; margin: 0.5rem auto;}
+			}
+			.profile_video_link {text-align: center;
+				svg {padding: 0.275rem; background-color: #4b2cb1; color: #fff; width: 1.5rem; height: 1.5rem; border-radius: 1rem; margin-right: 0.5rem;}
+				span {color: #000;}
+			}
+			.coach_detailed_profile {padding: 1rem;
+				.card-title {font-size: 2rem;}
+				p {font-size: 1rem;}
+				.our_expertise {
+					ul {
+						li {margin: 0.5rem 1rem;
+							img {width: 5rem;}
+							span {font-size: 0.9rem;}
+						}
+					}
+				}
+				.grades {
+					li {
+						.card-text {font-size: 1rem; font-weight: 600;}
+						p {font-size: 1rem; font-weight: 400;}
+						span {font-size: 0.8rem;}
+					}
+				}
+			}
+			.coach_profile_sidebar {border-bottom: 1px solid #ccc; padding: 1rem 0 0;
+				.card-header {background-color: $primary-color; padding: 0; display: flex; border-radius: 0;
+					h4 {color: #fff; font-size: 0.8rem; font-weight: 600; padding: 0.5rem 1rem; margin: 0;}
+					img {width: 30%; margin-right: 1rem; margin-bottom: -2px;}
+				}
+				.card-img-top {width: 40%; margin: auto;}
+				.card-body {padding: 0.5rem 0;
+					.card-text {font-size: 1rem; margin: 0.5rem 0 0 0;}
+					.card-title {font-size: 1rem; color: $primary-color; font-weight: 400;}
+					p {font-size: 0.8rem; margin: 0;}
+					ul {padding-inline-start: 0.65rem;;
+						li {
+							p {font-size: 0.75rem;}
+						}
+					}
+				}
+				.card-footer {background-color: #7b7878; padding: 0.5rem 1rem; border-radius: 0; text-align: center;
+					a {color: #fff;}
+				}
+			}
+		}
+	}
+	.kno_d_section_2 {padding: 3rem 0; margin: 0rem 0;
+		.coach_tabs {width: 85%; margin: auto; padding: 1rem;
+			.tab-text {font-size: 1rem; width: 80%; margin: 2rem 0;}
+			.kno_tab_content_row {height: 35rem; overflow: auto; padding: 0 1rem 0 0;}
+			.ask_me_anything {display: flex; flex-wrap: nowrap; margin: 0 0 0 auto; height: auto; overflow: auto; padding: 0.5rem 0.5rem 0;
+				img {width: 2rem; margin-right: 0.5rem;}
+				p {color: #4b2cb1; font-weight: 500; margin: 0;}
+			}
+		}
+	}
+	.coaches_container {width: 50%; margin: 5rem auto; padding: 1rem;
+		.coaches_container_row {background-color: $secondary-color;
+			.card-header {padding: 0.5rem;
+				p {font-size: 0.8rem;}
+			}
+		}
+	}
+	.view_more {text-align: center; margin-top: 1rem;
+		a {color: $primary-color; font-weight: 500; border-bottom: 1px solid $primary-color;}
+	}
+}
+
+
+/*************** Student's & Coach's Activity Page ***************/
+.kno_d_activity_page {width: 85%; margin: 4rem auto 10rem;
+	.activity_left_sidebar {background-color: $secondary-color; padding: 1rem; border: 1px solid #ddd; margin-bottom: 1rem;
+		ul {list-style: none; padding: 0;
+			li {margin: 0.5rem 0; padding: 0.5rem;
+				a {color: #686868; font-weight: 400;
+					.card-img-top {width: 1.2rem; margin-right: 0.5rem;}
+					svg {margin-right: 0.5rem;}
+				}
+			}
+			li.active {
+				a {font-weight: 600; color: #000;}
+			}
+		}
+	}
+	.activity_filter_section {
+		.filters_and_subjects {
+			.grade_filter {display: flex; flex-wrap: nowrap; justify-content: flex-start;
+				p {padding: 0.375rem; font-weight: 600; margin-bottom: 0rem;}
+				.form-group {margin: 0;
+					.form-control {padding: 0 0.5rem; font-size: 0.9rem; border: none;}
+					.form-control:focus {box-shadow: none;}
+				}
+			}
+			.subject_filter {
+				.subject_filter_header {display: flex; flex-wrap: wrap; justify-content: space-between; padding: 0.5rem;
+					p {font-weight: 600; margin-bottom: 0;}
+					a {color: $primary-color; font-size: 0.9rem; border-bottom: 1px solid $primary-color;}
+				}
+				.subject_filter_body {overflow: auto; padding: 0.5rem 0;
+					ul {list-style: none; padding: 0 0.5rem; width: 150%;
+						li {width: 6.5rem; margin: 0.5rem 1rem 0.5rem 0; float: left; font-size: 0.8rem;
+							input {border-radius: 0;}
+						}
+					}
+				}
+				.subject_filter_body::-webkit-scrollbar-track {box-shadow: inset 0 0 6px rgba(0,0,0,0.3); background-color: #F5F5F5;}
+				.subject_filter_body::-webkit-scrollbar {height: 0.5rem; background-color: #F5F5F5;}
+				.subject_filter_body::-webkit-scrollbar-thumb {background-color: #616161; border: none;}
+			}
+			.activity_logs {margin: 2rem 0;
+				.activity_logs_header {display: flex; flex-wrap: wrap; justify-content: space-between;
+					p {font-weight: 600;}
+					span {font-size: 0.8rem;
+						svg {height: 0.8rem; width: 0.8rem; color: $primary-color;}
+					}
+				}
+				.activity_logs_body {
+					ul {list-style: none; padding: 0.5rem;
+						li {border-top: 1px solid #ddd; height: auto; overflow: auto; padding: 0.5rem;
+							.log_image {float: left; margin-right: 1rem;}
+							.log_details {float: left;
+								h4 {font-size: 1rem; margin: 0; color: $primary-color;}
+								p {font-size: 0.9rem; margin-bottom: 0;}
+								span {font-size: 0.8rem;}
+							}
+							.log_icons {float: right; margin: 0.5rem 0;
+								img {padding: 0.375rem; background-color: $secondary-color;}
+								svg {font-weight: 600; width: 2rem; color: #999;}
+							}
+						}
+						li:last-child {border-bottom: 1px solid #ddd;}
+					}
+				}
+			}
+			.students_coaches_tab {margin-top: 2rem;
+				.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {border-radius: 0; margin-left: 1rem; border-color: #ddd;}
+				.nav-tabs .nav-link {border: 1px solid #eee; margin-left: 1rem; border-radius: 0; border-bottom: none; padding: 0.375rem 1.5rem; color: #000; font-size: 0.9rem;}
+				.nav-tabs {
+					span {margin: 0.5rem 0.5rem  0.5rem auto ; font-size: 0.8rem;
+						svg {color: $primary-color;}
+					}
+				}
+				.tab-content {
+					.kno_d_coaches_thumbnail {position: relative; margin: 0 0 1rem 0;
+						svg.bi-link-45deg {color: $primary-color; width: 1.2rem; height: 1.2rem; position: absolute; top: 0.5rem; right: 0.5rem;}
+						.card-header {padding: 0.5rem;
+							.card-image {width: 40%; float: left;}
+							.coaches_intro {
+								h3 {font-size: 0.9rem; margin-bottom: 0;}
+								p {font-size: 0.8rem; margin-bottom: 0;}
+							}
+						}
+						.card-body {padding: 0.5rem;
+							p {margin: 0 0 0.5rem 0; font-size: 0.8rem;}
+							.reviews {color: #aaa; 
+								svg {width: 0.8rem; height: 0.8rem;}
+								span {font-size: 0.8rem; border-bottom: 1px solid #aaa;}
+							}
+							.profile_video_link { margin-left: 1rem; color: #000;
+								svg {color: #fff; background-color: $primary-color; padding: 2px; border-radius: 1rem; width: 1rem; height: 1rem;}
+								span {font-size: 0.8rem;}
+							}
+						}
+						.card-footer {margin-top: 1rem;
+							.btn {font-size: 0.8rem; font-weight: 600;
+								img {width: 2rem; margin-bottom: -0.4rem; margin-left: 0.5rem;}
+							}
+						}
+					}
+					.input-group {margin-top: 1rem; width: 50%;
+						.input-group-prepend {
+							span {border-radius: 0; background: transparent;}
+						}
+						input {border-radius: 0; border-left: 0;}
+					}
+				}
+			}
+		}
+	}
+	.activity_right_sidebar {
+		.card {background-color: $secondary-color; border: 1px solid #ddd; margin-bottom: 1rem; border-radius: 0; padding: 0.5rem;
+			.card-header {background-color: transparent; border: none; padding: 0.5rem 1rem;
+				svg {float: left; margin: 0.375rem 1.5rem 1rem 0;}
+				h5 {font-weight: 400; margin: 0; font-size: 1rem;}
+				p {font-size: 0.8rem; margin-bottom: 0;}
+				a {color: $primary-color; font-size: 0.8rem; border-bottom: 1px solid $primary-color;}
+			}
+		}
+		.card:first-child {
+			a {margin-left: 2.5rem;}
+		}
+		.your_stats {
+			.card-header {
+				svg {margin: 0 1.5rem 0 0;}
+			}
+			ul {list-style: none; padding: 0.5rem 1rem; margin-bottom: 0;
+				li { font-size: 0.9rem; margin: 0.5rem 0;}
+			}
+		}
+	}
+}
+
+
+/****************************************** MEDIA QUERIES *********************************************/
+
+
+@media only screen and (min-width: 1540px) {
+	
+}
+
+@media only screen and (min-width: 1020px) and (max-width: 1260px) {
+	.kno_d_home_page .kno_d_section_1 h3 {font-size: 2rem;}
+	.kno_d_coaches_thumbnail {padding: 1rem 0 0 1rem;}
+	.kno_d_jumbotron .kno_d_profile_prew .card .our_expertise ul li img {width: 4rem;}
+	.kno_d_jumbotron .kno_d_profile_prew .card .our_expertise ul li span {font-size: 0.8rem;}
+	.kno_d_jumbotron .kno_d_profile_prew .card .grades li span,
+	.kno_d_jumbotron .kno_d_profile_prew .card .grades li p {font-size: 0.8rem;}
+	.kno_d_cr_page {margin-bottom: 3rem;}
+	.kno_d_cr_page .kno_d_reg_form_container {padding: 1rem;}
+	.kno_d_cr_page .kno_d_reg_form_container .kno_d_form_title {padding: 0; margin-left: 0; font-size: 1.5rem;}
+	.kno_d_reg_steps {margin: 2rem 0;}
+	.kno_d_reg_form {padding: 0.5rem; margin-left: 0;}
+	.kno_d_reg_form .btn_main {margin: 2rem 0;}
+	.kno_d_reg_form .check_buttons label {padding: 0.5rem 1.5rem;}
+}
+
+@media only screen and (min-width: 561px) and (max-width: 1020px) {
+	.kno_d_jumbotron .kno_d_profile_prew .card .our_expertise ul li img {width: 4rem;}
+}
+
+@media only screen and (max-width: 770px) {
+	.navbar-nav:last-child {display: flex; flex-flow: wrap; justify-content: flex-start;}
+	.kno_d_home_page .kno_d_section_1 p {font-size: 1rem;}
+	.kno_d_home_page .kno_d_section_1 p svg {margin: 0;}
+	.kno_d_home_page .kno_d_section_1 .kno_d_question_section {padding: 1rem}
+	.kno_d_home_page .kno_d_section_1 h3 {font-size: 1.5rem;}
+	.kno_d_home_page .kno_d_section_4 .section_title {font-size: 1.5rem;}
+	.kno_d_home_page .kno_d_question_section .dropdown {margin-bottom: 0.5rem;}
+	.kno_d_home_page .kno_d_section_2 .coaches_container,
+	.kno_d_home_page .kno_d_section_4 {width: 100%; padding: 0 1rem;}
+	.kno_d_home_page .kno_d_section_2 .coaches_container .coaches_container_row {padding-right: 0;}
+	.kno_d_home_page .kno_d_section_2 .coaches_container .section_title {margin-bottom: 1rem;}
+	.kno_d_home_page .kno_d_section_4 p {font-size: 1rem; width: 100%;}
+	.kno_d_jumbotron .kno_d_profile_prew .card .our_expertise ul li span {font-size: 0.8rem;}
+	.kno_d_jumbotron .kno_d_profile_prew .card .grades li span,
+	.kno_d_jumbotron .kno_d_profile_prew .card .grades li p {font-size: 0.8rem;}
+
+	
+}
+
+@media only screen and (max-width: 560px) {
+	.kno_d_cr_page,
+	.kno_d_insti_reg_page {margin-bottom: 3rem;}
+	.kno_d_cr_page .kno_d_reg_form_container,
+	.kno_d_insti_reg_page .kno_d_reg_form_container {padding: 1rem;}
+	.kno_d_cr_page .kno_d_reg_form_container .kno_d_form_title {padding: 0; margin-left: 0; font-size: 1.5rem;}
+	.kno_d_reg_steps {margin: 2rem 0;}
+	.kno_d_reg_form {padding: 0.5rem; margin-left: 0;}
+	.kno_d_reg_form .btn_main {margin: 2rem 0;}
+	.kno_d_jumbotron .kno_d_profile_prew .card-img-top {width: 50%; margin: 2rem auto;}
+	.kno_d_cr_page .kno_d_pro_view_container {padding: 2rem 1rem;}
+	.kno_d_jumbotron .kno_d_profile_prew .card .our_expertise .card-img-top {width: auto; margin: 0;}
+	.kno_d_jumbotron .kno_d_profile_prew .card .our_expertise ul li span {font-size: 0.8rem;}
+	.kno_d_jumbotron .kno_d_profile_prew .card .grades li span,
+	.kno_d_jumbotron .kno_d_profile_prew .card .grades li p {font-size: 0.8rem;}
+	.kno_d_cr_page .kno_d_pro_view_container .kno_d_jumbotron .coach_tabs {padding: 2rem 1rem;}
+	.coach_tabs .nav-tabs .nav-link {padding: 0.375rem 0.5rem;}
+
+	.kno_d_reg_form .check_buttons label {padding: 0.5rem 1rem; margin: 0.5rem 0;}
+
+	.kno_d_insti_reg_page .kno_d_reg_form_container .kno_d_form_title {padding: 0.5rem 0rem; margin-left: 0; font-size: 1.5rem;}
+	.kno_d_insti_reg_page .kno_d_pro_view_container {padding: 1rem;}
+	.kno_d_jumbotron {margin-top: 2rem;}
+	.kno_d_jumbotron .kno_d_profile_prew .card .profile_head img {margin: 0;}
+	.kno_d_jumbotron .kno_d_profile_prew .card .institute_img_grp img {width: 100%;}
+
+	.kno_d_coach_page .kno_d_jumbotron {padding: 0;}
+	.kno_d_coach_page .kno_d_jumbotron .kno_d_profile_prew {width: 100%; margin: 2rem auto; padding: 1rem 0;}
+	.kno_d_coach_page .kno_d_jumbotron .kno_d_profile_prew .coach_profile_sidebar {padding: 1rem;}
+	.kno_d_coach_page .kno_d_jumbotron .kno_d_profile_prew .coach_profile_sidebar .card-body ul li p {font-size: 0.8rem;}
+}

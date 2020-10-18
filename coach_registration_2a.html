@@ -1,0 +1,283 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<!-- Required meta tags -->
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+		<!-- Bootstrap CSS -->
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+		<!-- Custom CSS -->
+		<link rel="stylesheet" href="css/style.css">
+
+		<!-- Fonts -->
+		<link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital@1&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+
+		<title>Hello, world!</title>
+	</head>
+	<body>
+		<!-- Header -->
+		<nav class="navbar navbar-expand-lg navbar-light">
+			<a class="navbar-brand" href="#">
+				<img class="logo" src="img/logo.png" alt="Kno-Doubt-logo">
+			</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+		
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav mr-auto"></ul>
+				<ul class="navbar-nav">
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Register <span class="sr-only">(current)</span></a>
+						<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+							<a class="dropdown-item" href="#">As an Institute</a>
+							<a class="dropdown-item" href="#">As a Coach</a>
+							<a class="dropdown-item" href="#">As a Student</a>
+						</div>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">How it works</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Login</a>
+					</li>
+				</ul>
+			</div>
+		</nav>
+
+		<div class="container-fluid kno_d_cr_page">
+			<div class="row kno_d_cr_page_row">
+				<div class="col-lg-6 kno_d_cr_page_col">
+					<div class="kno_d_reg_form_container">
+						<h2 class="kno_d_form_title">Create your profile as a <span>"Coach"</span></h2>
+						<div class="kno_d_reg_steps">
+							<div class="steps active-step">
+								<span class="colored-circle"></span>
+								<h5>Step 1</h5>
+								<p>Basic info</p>
+							</div>
+							<div class="steps">
+								<span class="colored-circle"></span>
+								<h5>Step 2</h5>
+								<p>Qualification & Subjects</p>
+							</div>
+							<div class="steps">
+								<span class="colored-circle"></span>
+								<h5>Step 3</h5>
+								<p></p>
+							</div>
+						</div>
+						<form class="kno_d_reg_form">
+							<div class="form-group">
+								<label for="InputName">Name</label>
+								<input type="text" class="form-control" id="InputName" aria-describedby="nameHelp" placeholder="Mukesh Marwah">
+							</div>
+							<div class="form-group">
+								<label for="InputEmail">Email</label>
+								<input type="email" class="form-control" id="InputEmail" placeholder="m@pixelvj.com">
+							</div>
+							<div class="row">
+								<div class="col">
+									<div class="form-group">
+										<label for="InputPassword">Password</label>
+										<input type="password" class="form-control" id="InputPassword">
+										<small id="passwordHelp" class="form-text">(minimum 6 characters)</small>
+									</div>
+								</div>
+								<div class="col">
+									<div class="form-group">
+										<label for="InputPassword1">Confirm Password</label>
+										<input type="password" class="form-control" id="InputPassword1">
+										<small id="passwordHelp1" class="form-text">(minimum 6 characters)</small>
+									</div>
+								</div>
+							</div>
+							<div class="form-group">
+								<label for="InputMobile">Mobile</label>
+								<input type="number" class="form-control" id="InputMobile" placeholder="9871440776">
+							</div>
+							<div class="form-group">
+								<label for="InputLinkedin">Linkedin Profile Link</label>
+								<input type="url" class="form-control" id="InputLinkedin">
+							</div>
+							<div class="form-group">
+								<label for="InputWebsite">Website/Blog</label>
+								<input type="url" class="form-control" id="InputWebsite" placeholder="www.mukeshmarwah.net">
+							</div>
+							<div class="form-group profile_pic_group">
+								<label for="InputWebsite">Upload your Profile Picture</label>
+								<div class="thumbnail_img">
+									<img src="img/thumbnail-circle.png">
+								</div>
+								<div class="upload_btn">
+									<input type="file" class="form-control" id="InputPicture">
+									<small id="PictureHelp" class="form-text">(image dimention 150 x 150px)</small>
+								</div>
+							</div>
+							<button type="button" class="btn btn-primary btn_main">Next</button>
+						</form>
+					</div>
+				</div>
+				<div class="col-lg-6 kno_d_cr_page_col">
+					<div class="kno_d_pro_view_container">
+						<div class="jumbotron kno_d_jumbotron">
+							<div class="kno_d_profile_prew">
+								<div class="row">
+									<div class="col-md-3">
+										<img class="card-img-top" src="img/thumbnail-circle.png" alt="...">
+									</div>
+									<div class="col-md-9">
+										<div class="card">
+											<h3 class="card-title">Mukul Mehta <sup>(India)</sup></h3>
+											<p>Coach at 
+												<span>Narayan Institute Academy
+													<svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-box-arrow-up-right" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+														<path fill-rule="evenodd" d="M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5z"/>
+														<path fill-rule="evenodd" d="M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0v-5z"/>
+													</svg>
+												</span>
+											</p>
+											<p>BE - IIT Delhi,  MS - Stanford University</p>
+											<p>Experienced Mathematics Teacher with a demonstrated history of working in the primary/secondary education industry. Skilled in Mathematics and science, Motivational Speaking, Teaching, and Public Speaking. Strong research professional with a B. Sc and M. Sc focused in physics honours from Delhi University. <a href="#">Read more</a></p>
+											<div class="our_expertise">
+												<p class="card-text">Ask me any question in</p>
+												<ul>
+													<li>
+														<img class="card-img-top" src="img/math.png" alt="Math">
+														<span>Math</span>
+													</li>
+													<li>
+														<img class="card-img-top" src="img/physics.png" alt="Physics">
+														<span>Physics</span>
+													</li>
+													<li>
+														<img class="card-img-top" src="img/chemistry.png" alt="chemistry">
+														<span>chemistry</span>
+													</li>
+													<li>
+														<img class="card-img-top" src="img/bio.png" alt="Biology">
+														<span>Biology</span>
+													</li>
+													<li>
+														<img class="card-img-top" src="img/accounts.png" alt="Accounting">
+														<span>Accounting</span>
+													</li>
+													<li>
+														<img class="card-img-top" src="img/eco.png" alt="Economics">
+														<span>Economics</span>
+													</li>
+												</ul>
+											</div>
+											<ul class="grades">
+												<li>
+													<p class="card-text">For</p>
+												</li>
+												<li>
+													<p>Lower School</p>
+													<span>(Grades 1 to 4)</span>
+												</li>
+												<li>
+													<p>Middle School</p>
+													<span>(Grades 5 to 8)</span>
+												</li>
+												<li>
+													<p>High School</p>
+													<span>(Grades 9 to 12)</span>
+												</li>
+												<li>
+													<p>Post Secondary</p>
+												</li>
+											</ul>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="coach_tabs">
+								<h5>A glimpse of my...</h5>
+								<ul class="nav nav-tabs" id="myTab" role="tablist">
+									<li class="nav-item" role="presentation">
+										<a class="nav-link active" id="teaching-tab" data-toggle="tab" href="#teaching" role="tab" aria-controls="teaching" aria-selected="true">Teaching Skills</a>
+									</li>
+									<li class="nav-item" role="presentation">
+										<a class="nav-link" id="doubts-tab" data-toggle="tab" href="#doubts" role="tab" aria-controls="doubts" aria-selected="false">Doubts Clearing Library</a>
+									</li>
+								</ul>
+								<div class="tab-content" id="myTabContent">
+									<div class="tab-pane fade show active" id="teaching" role="tabpanel" aria-labelledby="teaching-tab">
+										<p>Here,we look at the skills you need to be a teacher, trainer or tutor. Communication. A huge part of teaching is communicating information. Patience. most important qualities a teacher can have is patience.  Patience, communicating information. Patience. Teacher, trainer or tutor. Communication. A huge part of teaching is communicating </p>
+										<div class="row">
+											<div class="col-md-4">
+												<div class="card">
+													<img src="img/thumbnail.jpg" class="card-img-top" alt="...">
+													<div class="card-body">
+														<h5 class="card-title">Optics Question</h5>
+													</div>
+												</div>
+											</div>
+											<div class="col-md-4">
+												<div class="card">
+													<img src="img/thumbnail.jpg" class="card-img-top" alt="...">
+													<div class="card-body">
+														<h5 class="card-title">Optics Question</h5>
+													</div>
+												</div>
+											</div>
+											<div class="col-md-4">
+												<div class="card">
+													<img src="img/thumbnail.jpg" class="card-img-top" alt="...">
+													<div class="card-body">
+														<h5 class="card-title">Optics Question</h5>
+													</div>
+												</div>
+											</div>
+											<div class="col-md-4">
+												<div class="card">
+													<img src="img/thumbnail.jpg" class="card-img-top" alt="...">
+													<div class="card-body">
+														<h5 class="card-title">Optics Question</h5>
+													</div>
+												</div>
+											</div>
+											<div class="col-md-4">
+												<div class="card">
+													<img src="img/thumbnail.jpg" class="card-img-top" alt="...">
+													<div class="card-body">
+														<h5 class="card-title">Optics Question</h5>
+													</div>
+												</div>
+											</div>
+											<div class="col-md-4">
+												<div class="card">
+													<img src="img/thumbnail.jpg" class="card-img-top" alt="...">
+													<div class="card-body">
+														<h5 class="card-title">Optics Question</h5>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="tab-pane fade" id="doubts" role="tabpanel" aria-labelledby="doubts-tab">...</div>
+								</div>
+							</div>
+						</div>
+						<div class="btn_container">
+							<button type="button" class="btn btn-outline-secondary btn_main_outline">Preview Your Profile</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="footer">
+			<p>@Copyright Knoblr. All Right Reserved. Terms of use</p>
+		</div>
+
+		<!-- Optional JavaScript -->
+		<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+		<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+		<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
+	</body>
+</html>

@@ -1,0 +1,187 @@
+/*************** MISC ***************/
+body {font-family: $font-family;}
+.container-fluid {padding: 0;}
+.logo {width: 10rem;}
+a:hover {text-decoration: none;}
+.previous_page {color: #000; margin: 1rem;
+	svg {width: 0.8rem; height: 0.8rem;}
+}
+.profile_row {margin-top: 2rem;}
+.nav_video_link {
+	span {color: $primary-color; border-bottom: 1px solid $primary-color; margin-right: 0.5rem;}
+	svg {color: #fff; background-color: $primary-color; padding: 2px; border-radius: 1rem;}	
+}
+
+
+/************* Header *************/
+.navbar {background-color: $secondary-color;
+	.nav-item {margin: 0 0.5rem;
+		.nav-link {font-weight: 500; font-size: 1rem; color: #000;
+			img {width: 1.1rem;}
+		}
+		.nav-link.active {color: $primary-color;}
+		.nav-link:hover, .nav-link:focus, .nav-link:active {color: $primary-color;}
+		.dropdown-menu {left: inherit; right: 0; background-color: $primary-color; padding: 0; border-radius: 0; border: none;
+			.dropdown-item {color: #fff; padding: .375rem 1.5rem;}
+			.dropdown-item:hover, .dropdown-item:focus {background-color: darken($primary-color, 7%);}
+		}
+	}
+	.notification {position: relative;
+		h6 {position: absolute; top: 0; right: 0; margin: 0; font-size: 0.8rem;
+			span {border-radius: 1rem; color: $primary-color; background-color: transparent;}
+		}
+	}
+}
+
+
+/************* Footer *************/
+.footer {border-bottom: 5px solid $primary-color; margin-top: 1rem;
+	p {text-align: center; font-size: 0.8rem; font-weight: 300; color: #555;}
+}
+	
+
+/************* Coache's Profile Thumbnail *************/
+.kno_d_coaches_thumbnail {border-radius: 0; margin: $sub_section_margin 0;
+	.card-header {padding: 1rem; display: flex; background-color: #fff; border-bottom: none;
+		img {width: 100%;}
+		.coaches_intro {margin-left: 1rem;
+			h3 {font-size: 1rem; margin-top: 0.5rem;
+				a {color: #000;}
+			}
+			p {font-size: 0.9rem; margin-bottom: 0.375rem; color: #666;
+				span {color: $primary-color;}
+			}
+		}
+	}
+	.card-body {padding: 0.5rem 1rem; 
+		p {font-size: 0.9rem; margin-bottom: 0.5rem;
+			span {font-weight: 700;}
+		}
+		.coaches_degree {margin: 1rem 0;}
+	}
+	.card-footer {padding: 0 0 0 1rem; background: transparent; border: none;
+		a {border-bottom: 1px solid #666; color: #666; font-size: 0.9rem;}
+		.btn {float: right; border-radius: 0; background-color: $secondary-color; color: $primary-color; border-top: 1px solid #ddd; border-left: 1px solid #ddd; border-bottom: none; border-right: none;}
+	}
+}
+
+
+/************* Registration Form *************/
+.kno_d_reg_steps {position: relative; display: flex; justify-content: space-around; border-top: 2px solid #c2c2c2; margin: 2rem 2rem 1rem 3rem; padding: 1rem 0 0 0;
+	.steps {text-align: center; width: 33.33%; margin-top: -26px; position: relative;
+		h5 {font-size: 1.2rem; font-weight: 300; color: $primary-color; margin: 0.5rem 0 0 0;}
+		p {margin: 0; font-size: 0.8rem;}
+		.colored-circle {width: 1rem; height: 1rem; display: block; border-radius: 1rem; margin:0 auto; background-color: $primary-color;}
+	}
+	.active-step:after {content: ""; height: 2px; width: 100%; background-color: $primary-color; position: absolute; top: 8px; left: 0; right: 0;}
+}
+.kno_d_reg_form {padding: 2rem; margin-left: $sub_section_margin;
+	.form-group {margin-bottom: 1.5rem;
+		input, textarea, select {border-radius: 0; height: auto; padding: 0.5rem 0.75rem;}
+		input::-webkit-input-placeholder, textarea::-webkit-input-placeholder, select {color: #aaa; font-weight: 300; }
+		input:-ms-input-placeholder, textarea:-ms-input-placeholder, select {color: #aaa; font-weight: 300;}
+		input::placeholder, textarea::placeholder, select {color: #aaa; font-weight: 300;}
+		small {color: #aaa; font-weight: 300;}
+	}
+	.check_buttons {
+		label {border-radius: 1rem; padding: 0.5rem 2.5rem; font-size: 0.8rem; font-weight: 300; margin: 0.5rem 0.2rem; background-color: #ebebeb; border: none; color: #919191; box-shadow: none;}
+		label.btn-secondary.active {background-color: #d7d7d7; color: #000;}
+	}
+	.profile_pic_group { height: auto; overflow: auto;
+		label {width: 100%; margin-bottom: 1rem;}
+		.thumbnail_img {float: left; margin-right: auto;}
+		.upload_btn {width: 50%; float: left; margin: 2rem;
+			input {border: none; padding: 0;}
+		}
+	}
+	.multi_upload {
+		.multi_upload_label {width: 100%; height: auto; overflow: auto;
+			label {float: left;}
+			a {float: right; color: #000;}
+		}
+		.thumbnail {width: 50%; height: auto; overflow: auto;
+			.thumbnail_img {margin: 1rem 0 0.375rem; position: relative;
+				.thumb_overlay_link {position: absolute; top: 0; left: 0; right: 0; bottom: 0; display: flex; flex-wrap: wrap; justify-content: center; align-items: center;
+					a {color: #fff; border-bottom: 1px solid #fff;}
+				}
+				.thumb_overlay_checkbox {position: absolute; bottom: 2rem; right: 0.5rem;}
+			}
+			.thumb_body {
+				p {font-weight: 300; margin-bottom: 0;
+					span {font-weight: 600;}
+				}
+			}
+		}
+		.thumbnail_large {width: 100%;}
+	}
+	.btn_main {background-color: $primary-color; color: #fff; border: none; border-radius: 0; padding: 0.5rem 4rem; float: right; margin-top: 2rem;}
+	.btn.btn_main:active, .btn.btn_main:hover, .btn.btn_main:focus {background-color: darken($primary-color, 10%); box-shadow: 0 0 0 0.2rem rgba(58,34,136,.5);}
+}
+
+
+/************* Coach's & Institute's Profile *************/
+.kno_d_jumbotron {background: #fff; border-radius: 0; border: 1px solid #b8b8b8; padding: 1rem 1rem 0 1rem; margin-top: 3rem;
+	.kno_d_profile_prew {
+		.card {border: none; border-radius: 0; padding: 1rem 0;
+			.profile_head {margin-top: 1rem;
+				.card-title {float: left;}
+				img {float: right; width: 6rem; margin-right: 1rem;}
+			}
+			.card-title {margin-bottom: 0.5rem; font-size: 1.5rem;
+				sup {font-size: 0.8rem; color: #aaa; font-weight: 300;}
+			}
+			p {margin-bottom: 0.5rem; font-size: 0.9rem;
+				span {color: $primary-color;}
+				a {color: $primary-color;}
+			}
+			.our_expertise {margin-top: 0.5rem;
+				.card-text {font-weight: 600; font-size: 1rem;}
+				h5 {color: $primary-color; font-size: 0.8rem;
+					span {color: #000;}
+				}
+				ul {list-style: none; padding: 0; display: flex; flex-wrap: wrap; justify-content: flex-start;
+					li {text-align: center; margin: 0.5rem;
+						img {width: 3rem; display: block;}
+						span {font-size: 0.7rem;}
+					}
+				}
+			}
+			.institute_img_grp {
+				.card {padding: 0;}
+			}
+			.grades {list-style: none; display: flex; justify-content: space-between; padding: 1rem 0; border-top: 1px solid #ccc; 
+				li {margin: 0.5rem;
+					.card-text {font-weight: 600; font-size: 0.8rem;}
+					p {font-size: 0.7rem; margin: 0; font-weight: 500;}
+					span {color: #aaa; font-size: 0.7rem;}
+				}
+			}
+			.institute_img_grp {margin: 2rem 0;
+				img {margin: 0.5rem 0;}
+			}
+		}
+	}
+}
+.btn_container {text-align: center;
+	.btn.btn_main_outline {border-radius: 0; border-color: $primary-color; color: $primary-color;}
+	.btn.btn_main_outline:active, .btn.btn_main_outline:hover, .btn.btn_main_outline:focus {background-color: transparent; border-radius: 0; box-shadow: 0 0 0 0.2rem rgba(58,34,136,.5);}
+}
+
+
+/************* Coach Skill Tabs *************/
+.coach_tabs {padding: 2rem 0;
+	.nav-tabs {border-bottom: 1px solid #575757; margin: 2rem 0;
+		.nav-link {border-bottom: 1px solid #575757; margin-right: 0.5rem; border-radius: 0; background-color: #dedede; color: #575757; font-size: 0.9rem;}
+		.nav-link.active {background-color: #575757; color: #fff; border-color: #575757;}
+	}
+	.tab-content {padding: 0 1rem 0 0;
+		p {font-size: 0.8rem;}
+		.card {border-radius: 0; border: none; background-color: transparent; margin-bottom: 1rem;
+			.card-body {padding: 0.5rem 0.2rem;
+				.card-title {font-size: 0.7rem; margin: 0;}
+			}
+		}
+	}
+}
+
+

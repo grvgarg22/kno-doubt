@@ -1,0 +1,402 @@
+/*************** MISC ***************/
+body { font-family: "Roboto", sans-serif; }
+
+.container-fluid { padding: 0; }
+
+.logo { width: 10rem; }
+
+a:hover { text-decoration: none; }
+
+.previous_page { color: #000; margin: 1rem; }
+.previous_page svg { width: 0.8rem; height: 0.8rem; }
+
+.profile_row { margin-top: 2rem; }
+
+.nav_video_link span { color: #4b2cb1; border-bottom: 1px solid #4b2cb1; margin-right: 0.5rem; }
+.nav_video_link svg { color: #fff; background-color: #4b2cb1; padding: 2px; border-radius: 1rem; }
+
+/************* Header *************/
+.navbar { background-color: #f7f7f7; }
+.navbar .nav-item { margin: 0 0.5rem; }
+.navbar .nav-item .nav-link { font-weight: 500; font-size: 1rem; color: #000; }
+.navbar .nav-item .nav-link img { width: 1.1rem; }
+.navbar .nav-item .nav-link.active { color: #4b2cb1; }
+.navbar .nav-item .nav-link:hover, .navbar .nav-item .nav-link:focus, .navbar .nav-item .nav-link:active { color: #4b2cb1; }
+.navbar .nav-item .dropdown-menu { left: inherit; right: 0; background-color: #4b2cb1; padding: 0; border-radius: 0; border: none; }
+.navbar .nav-item .dropdown-menu .dropdown-item { color: #fff; padding: .375rem 1.5rem; }
+.navbar .nav-item .dropdown-menu .dropdown-item:hover, .navbar .nav-item .dropdown-menu .dropdown-item:focus { background-color: #3f2594; }
+.navbar .notification { position: relative; }
+.navbar .notification h6 { position: absolute; top: 0; right: 0; margin: 0; font-size: 0.8rem; }
+.navbar .notification h6 span { border-radius: 1rem; color: #4b2cb1; background-color: transparent; }
+
+/************* Footer *************/
+.footer { border-bottom: 5px solid #4b2cb1; margin-top: 1rem; }
+.footer p { text-align: center; font-size: 0.8rem; font-weight: 300; color: #555; }
+
+/************* Coache's Profile Thumbnail *************/
+.kno_d_coaches_thumbnail { border-radius: 0; margin: 1rem 0; }
+.kno_d_coaches_thumbnail .card-header { padding: 1rem; display: flex; background-color: #fff; border-bottom: none; }
+.kno_d_coaches_thumbnail .card-header img { width: 100%; }
+.kno_d_coaches_thumbnail .card-header .coaches_intro { margin-left: 1rem; }
+.kno_d_coaches_thumbnail .card-header .coaches_intro h3 { font-size: 1rem; margin-top: 0.5rem; }
+.kno_d_coaches_thumbnail .card-header .coaches_intro h3 a { color: #000; }
+.kno_d_coaches_thumbnail .card-header .coaches_intro p { font-size: 0.9rem; margin-bottom: 0.375rem; color: #666; }
+.kno_d_coaches_thumbnail .card-header .coaches_intro p span { color: #4b2cb1; }
+.kno_d_coaches_thumbnail .card-body { padding: 0.5rem 1rem; }
+.kno_d_coaches_thumbnail .card-body p { font-size: 0.9rem; margin-bottom: 0.5rem; }
+.kno_d_coaches_thumbnail .card-body p span { font-weight: 700; }
+.kno_d_coaches_thumbnail .card-body .coaches_degree { margin: 1rem 0; }
+.kno_d_coaches_thumbnail .card-footer { padding: 0 0 0 1rem; background: transparent; border: none; }
+.kno_d_coaches_thumbnail .card-footer a { border-bottom: 1px solid #666; color: #666; font-size: 0.9rem; }
+.kno_d_coaches_thumbnail .card-footer .btn { float: right; border-radius: 0; background-color: #f7f7f7; color: #4b2cb1; border-top: 1px solid #ddd; border-left: 1px solid #ddd; border-bottom: none; border-right: none; }
+
+/************* Registration Form *************/
+.kno_d_reg_steps { position: relative; display: flex; justify-content: space-around; border-top: 2px solid #c2c2c2; margin: 2rem 2rem 1rem 3rem; padding: 1rem 0 0 0; }
+.kno_d_reg_steps .steps { text-align: center; width: 33.33%; margin-top: -26px; position: relative; }
+.kno_d_reg_steps .steps h5 { font-size: 1.2rem; font-weight: 300; color: #4b2cb1; margin: 0.5rem 0 0 0; }
+.kno_d_reg_steps .steps p { margin: 0; font-size: 0.8rem; }
+.kno_d_reg_steps .steps .colored-circle { width: 1rem; height: 1rem; display: block; border-radius: 1rem; margin: 0 auto; background-color: #4b2cb1; }
+.kno_d_reg_steps .active-step:after { content: ""; height: 2px; width: 100%; background-color: #4b2cb1; position: absolute; top: 8px; left: 0; right: 0; }
+
+.kno_d_reg_form { padding: 2rem; margin-left: 1rem; }
+.kno_d_reg_form .form-group { margin-bottom: 1.5rem; }
+.kno_d_reg_form .form-group input, .kno_d_reg_form .form-group textarea, .kno_d_reg_form .form-group select { border-radius: 0; height: auto; padding: 0.5rem 0.75rem; }
+.kno_d_reg_form .form-group input::-webkit-input-placeholder, .kno_d_reg_form .form-group textarea::-webkit-input-placeholder, .kno_d_reg_form .form-group select { color: #aaa; font-weight: 300; }
+.kno_d_reg_form .form-group input:-ms-input-placeholder, .kno_d_reg_form .form-group textarea:-ms-input-placeholder, .kno_d_reg_form .form-group select { color: #aaa; font-weight: 300; }
+.kno_d_reg_form .form-group input::placeholder, .kno_d_reg_form .form-group textarea::placeholder, .kno_d_reg_form .form-group select { color: #aaa; font-weight: 300; }
+.kno_d_reg_form .form-group small { color: #aaa; font-weight: 300; }
+.kno_d_reg_form .check_buttons label { border-radius: 1rem; padding: 0.5rem 2.5rem; font-size: 0.8rem; font-weight: 300; margin: 0.5rem 0.2rem; background-color: #ebebeb; border: none; color: #919191; box-shadow: none; }
+.kno_d_reg_form .check_buttons label.btn-secondary.active { background-color: #d7d7d7; color: #000; }
+.kno_d_reg_form .profile_pic_group { height: auto; overflow: auto; }
+.kno_d_reg_form .profile_pic_group label { width: 100%; margin-bottom: 1rem; }
+.kno_d_reg_form .profile_pic_group .thumbnail_img { float: left; margin-right: auto; }
+.kno_d_reg_form .profile_pic_group .upload_btn { width: 50%; float: left; margin: 2rem; }
+.kno_d_reg_form .profile_pic_group .upload_btn input { border: none; padding: 0; }
+.kno_d_reg_form .multi_upload .multi_upload_label { width: 100%; height: auto; overflow: auto; }
+.kno_d_reg_form .multi_upload .multi_upload_label label { float: left; }
+.kno_d_reg_form .multi_upload .multi_upload_label a { float: right; color: #000; }
+.kno_d_reg_form .multi_upload .thumbnail { width: 50%; height: auto; overflow: auto; }
+.kno_d_reg_form .multi_upload .thumbnail .thumbnail_img { margin: 1rem 0 0.375rem; position: relative; }
+.kno_d_reg_form .multi_upload .thumbnail .thumbnail_img .thumb_overlay_link { position: absolute; top: 0; left: 0; right: 0; bottom: 0; display: flex; flex-wrap: wrap; justify-content: center; align-items: center; }
+.kno_d_reg_form .multi_upload .thumbnail .thumbnail_img .thumb_overlay_link a { color: #fff; border-bottom: 1px solid #fff; }
+.kno_d_reg_form .multi_upload .thumbnail .thumbnail_img .thumb_overlay_checkbox { position: absolute; bottom: 2rem; right: 0.5rem; }
+.kno_d_reg_form .multi_upload .thumbnail .thumb_body p { font-weight: 300; margin-bottom: 0; }
+.kno_d_reg_form .multi_upload .thumbnail .thumb_body p span { font-weight: 600; }
+.kno_d_reg_form .multi_upload .thumbnail_large { width: 100%; }
+.kno_d_reg_form .btn_main { background-color: #4b2cb1; color: #fff; border: none; border-radius: 0; padding: 0.5rem 4rem; float: right; margin-top: 2rem; }
+.kno_d_reg_form .btn.btn_main:active, .kno_d_reg_form .btn.btn_main:hover, .kno_d_reg_form .btn.btn_main:focus { background-color: #3a2288; box-shadow: 0 0 0 0.2rem rgba(58, 34, 136, 0.5); }
+
+/************* Coach's & Institute's Profile *************/
+.kno_d_jumbotron { background: #fff; border-radius: 0; border: 1px solid #b8b8b8; padding: 1rem 1rem 0 1rem; margin-top: 3rem; }
+.kno_d_jumbotron .kno_d_profile_prew .card { border: none; border-radius: 0; padding: 1rem 0; }
+.kno_d_jumbotron .kno_d_profile_prew .card .profile_head { margin-top: 1rem; }
+.kno_d_jumbotron .kno_d_profile_prew .card .profile_head .card-title { float: left; }
+.kno_d_jumbotron .kno_d_profile_prew .card .profile_head img { float: right; width: 6rem; margin-right: 1rem; }
+.kno_d_jumbotron .kno_d_profile_prew .card .card-title { margin-bottom: 0.5rem; font-size: 1.5rem; }
+.kno_d_jumbotron .kno_d_profile_prew .card .card-title sup { font-size: 0.8rem; color: #aaa; font-weight: 300; }
+.kno_d_jumbotron .kno_d_profile_prew .card p { margin-bottom: 0.5rem; font-size: 0.9rem; }
+.kno_d_jumbotron .kno_d_profile_prew .card p span { color: #4b2cb1; }
+.kno_d_jumbotron .kno_d_profile_prew .card p a { color: #4b2cb1; }
+.kno_d_jumbotron .kno_d_profile_prew .card .our_expertise { margin-top: 0.5rem; }
+.kno_d_jumbotron .kno_d_profile_prew .card .our_expertise .card-text { font-weight: 600; font-size: 1rem; }
+.kno_d_jumbotron .kno_d_profile_prew .card .our_expertise h5 { color: #4b2cb1; font-size: 0.8rem; }
+.kno_d_jumbotron .kno_d_profile_prew .card .our_expertise h5 span { color: #000; }
+.kno_d_jumbotron .kno_d_profile_prew .card .our_expertise ul { list-style: none; padding: 0; display: flex; flex-wrap: wrap; justify-content: flex-start; }
+.kno_d_jumbotron .kno_d_profile_prew .card .our_expertise ul li { text-align: center; margin: 0.5rem; }
+.kno_d_jumbotron .kno_d_profile_prew .card .our_expertise ul li img { width: 3rem; display: block; }
+.kno_d_jumbotron .kno_d_profile_prew .card .our_expertise ul li span { font-size: 0.7rem; }
+.kno_d_jumbotron .kno_d_profile_prew .card .institute_img_grp .card { padding: 0; }
+.kno_d_jumbotron .kno_d_profile_prew .card .grades { list-style: none; display: flex; justify-content: space-between; padding: 1rem 0; border-top: 1px solid #ccc; }
+.kno_d_jumbotron .kno_d_profile_prew .card .grades li { margin: 0.5rem; }
+.kno_d_jumbotron .kno_d_profile_prew .card .grades li .card-text { font-weight: 600; font-size: 0.8rem; }
+.kno_d_jumbotron .kno_d_profile_prew .card .grades li p { font-size: 0.7rem; margin: 0; font-weight: 500; }
+.kno_d_jumbotron .kno_d_profile_prew .card .grades li span { color: #aaa; font-size: 0.7rem; }
+.kno_d_jumbotron .kno_d_profile_prew .card .institute_img_grp { margin: 2rem 0; }
+.kno_d_jumbotron .kno_d_profile_prew .card .institute_img_grp img { margin: 0.5rem 0; }
+
+.btn_container { text-align: center; }
+.btn_container .btn.btn_main_outline { border-radius: 0; border-color: #4b2cb1; color: #4b2cb1; }
+.btn_container .btn.btn_main_outline:active, .btn_container .btn.btn_main_outline:hover, .btn_container .btn.btn_main_outline:focus { background-color: transparent; border-radius: 0; box-shadow: 0 0 0 0.2rem rgba(58, 34, 136, 0.5); }
+
+/************* Coach Skill Tabs *************/
+.coach_tabs { padding: 2rem 0; }
+.coach_tabs .nav-tabs { border-bottom: 1px solid #575757; margin: 2rem 0; }
+.coach_tabs .nav-tabs .nav-link { border-bottom: 1px solid #575757; margin-right: 0.5rem; border-radius: 0; background-color: #dedede; color: #575757; font-size: 0.9rem; }
+.coach_tabs .nav-tabs .nav-link.active { background-color: #575757; color: #fff; border-color: #575757; }
+.coach_tabs .tab-content { padding: 0 1rem 0 0; }
+.coach_tabs .tab-content p { font-size: 0.8rem; }
+.coach_tabs .tab-content .card { border-radius: 0; border: none; background-color: transparent; margin-bottom: 1rem; }
+.coach_tabs .tab-content .card .card-body { padding: 0.5rem 0.2rem; }
+.coach_tabs .tab-content .card .card-body .card-title { font-size: 0.7rem; margin: 0; }
+
+/*************** HOME PAGE ***************/
+.kno_d_home_page .kno_d_section_1 { border-radius: 0; border: none; text-align: center; position: relative; margin-bottom: 3rem; }
+.kno_d_home_page .kno_d_section_1 img { width: 90%; margin: 1rem auto; }
+.kno_d_home_page .kno_d_section_1 h3 { font-weight: 700; font-size: 3rem; }
+.kno_d_home_page .kno_d_section_1 p { font-family: 'Libre Baskerville', serif; font-style: italic; color: #4b2cb1; font-size: 1.5rem; margin-bottom: 5rem; }
+.kno_d_home_page .kno_d_section_1 p svg { font-size: 1.5rem; background-color: #4b2cb1; color: #fff; border-radius: 1rem; padding: 3px; margin: 0.5rem; }
+.kno_d_home_page .kno_d_section_1 p span { font-family: "Roboto", sans-serif; font-style: normal; }
+.kno_d_home_page .kno_d_section_1 .kno_d_question_section { width: 85%; position: absolute; bottom: -10.5rem; left: 7.5%; background-color: #4b2cb1; padding: 2rem 5rem; border-radius: 1rem; }
+.kno_d_home_page .kno_d_section_1 .kno_d_question_section h3 { margin-bottom: 2rem; font-weight: 300; color: #fff; }
+.kno_d_home_page .kno_d_section_1 .kno_d_question_section .dropdown-toggle { width: 100%; background-color: #fff; color: #111; text-align: left; border-radius: 0; }
+.kno_d_home_page .kno_d_section_1 .kno_d_question_section .dropdown-toggle:after { float: right; margin-top: 0.5rem; border-top: .4em solid; border-right: .4em solid transparent; border-left: .4em solid transparent; }
+.kno_d_home_page .kno_d_section_2 { padding: 10rem 0 5rem; background-color: #f7f7f7; margin: 5rem 0; }
+.kno_d_home_page .kno_d_section_2 .coaches_container { width: 85%; margin: auto; }
+.kno_d_home_page .kno_d_section_2 .coaches_container .section_title { margin-bottom: 2rem; }
+.kno_d_home_page .kno_d_section_2 .coaches_container .coaches_container_row { height: 48rem; overflow: auto; padding: 0 1rem 0 0; }
+.kno_d_home_page .kno_d_section_3 { margin: 5rem auto; }
+.kno_d_home_page .kno_d_section_3 .section_title { width: 85%; margin: 2rem auto; text-align: center; font-weight: 300; font-size: 2rem; }
+.kno_d_home_page .kno_d_section_3 #testimonial_carousel { margin: 2rem auto; /* medium - display 2  */ /* large - display 3 */ }
+.kno_d_home_page .kno_d_section_3 #testimonial_carousel .carousel-inner { width: 85%; margin: auto; }
+.kno_d_home_page .kno_d_section_3 #testimonial_carousel .carousel-inner .card { border: none; border-radius: 0; position: relative; }
+.kno_d_home_page .kno_d_section_3 #testimonial_carousel .carousel-inner .card .card-body { padding: 1rem 0; }
+.kno_d_home_page .kno_d_section_3 #testimonial_carousel .carousel-inner .card .card-body .card-title { font-weight: 300; font-size: 1rem; }
+.kno_d_home_page .kno_d_section_3 #testimonial_carousel .carousel-inner .card .card-body .card-title span { font-weight: 700; }
+.kno_d_home_page .kno_d_section_3 #testimonial_carousel .carousel-inner .card .test_video_icon_overlay { position: absolute; top: 1rem; right: 1rem; background-color: #4b2cb1; padding: 0.15rem 0.375rem; border-radius: 1rem; }
+.kno_d_home_page .kno_d_section_3 #testimonial_carousel .carousel-inner .card .test_video_icon_overlay a { color: #fff; }
+.kno_d_home_page .kno_d_section_3 #testimonial_carousel .carousel-control-prev, .kno_d_home_page .kno_d_section_3 #testimonial_carousel .carousel-control-next { width: 11%; top: -6rem; }
+.kno_d_home_page .kno_d_section_3 #testimonial_carousel .carousel-control-prev-icon, .kno_d_home_page .kno_d_section_3 #testimonial_carousel .carousel-control-next-icon { background-image: none; color: #000; font-size: 2rem; }
+.kno_d_home_page .kno_d_section_3 #testimonial_carousel .carousel-control-prev { left: 0rem; }
+.kno_d_home_page .kno_d_section_3 #testimonial_carousel .carousel-control-next { right: 1rem; }
+@media (min-width: 768px) { .kno_d_home_page .kno_d_section_3 #testimonial_carousel .carousel-inner .carousel-item-right.active, .kno_d_home_page .kno_d_section_3 #testimonial_carousel .carousel-inner .carousel-item-next { transform: translateX(50%); }
+  .kno_d_home_page .kno_d_section_3 #testimonial_carousel .carousel-inner .carousel-item-left.active, .kno_d_home_page .kno_d_section_3 #testimonial_carousel .carousel-inner .carousel-item-prev { transform: translateX(-50%); } }
+@media (min-width: 992px) { .kno_d_home_page .kno_d_section_3 #testimonial_carousel .carousel-inner .carousel-item-right.active, .kno_d_home_page .kno_d_section_3 #testimonial_carousel .carousel-inner .carousel-item-next { transform: translateX(33.33%); }
+  .kno_d_home_page .kno_d_section_3 #testimonial_carousel .carousel-inner .carousel-item-left.active, .kno_d_home_page .kno_d_section_3 #testimonial_carousel .carousel-inner .carousel-item-prev { transform: translateX(-33.33%); } }
+@media (max-width: 768px) { .kno_d_home_page .kno_d_section_3 #testimonial_carousel .carousel-inner .carousel-item > div { display: block; }
+  .kno_d_home_page .kno_d_section_3 #testimonial_carousel .carousel-inner .carousel-item > div:first-child { display: block; } }
+@media (max-width: 551px) { .kno_d_home_page .kno_d_section_3 #testimonial_carousel .carousel-inner .carousel-item > div { display: none; }
+  .kno_d_home_page .kno_d_section_3 #testimonial_carousel .carousel-inner .carousel-item > div:first-child { display: block; } }
+.kno_d_home_page .kno_d_section_3 #testimonial_carousel .carousel-inner .carousel-item.active, .kno_d_home_page .kno_d_section_3 #testimonial_carousel .carousel-inner .carousel-item-next, .kno_d_home_page .kno_d_section_3 #testimonial_carousel .carousel-inner .carousel-item-prev { display: flex; }
+.kno_d_home_page .kno_d_section_3 #testimonial_carousel .carousel-inner .carousel-item-right, .kno_d_home_page .kno_d_section_3 #testimonial_carousel .carousel-inner .carousel-item-left { transform: translateX(0); }
+.kno_d_home_page .kno_d_section_4 { width: 85%; margin: 5rem auto; }
+.kno_d_home_page .kno_d_section_4 .section_title { text-align: center; font-weight: 300; font-size: 2.5rem; margin-bottom: 2rem; }
+.kno_d_home_page .kno_d_section_4 p { text-align: center; font-size: 1.7rem; font-weight: 300; width: 80%; margin: 2rem auto; }
+
+/*************** Coach Registration Page ***************/
+.kno_d_cr_page { margin-bottom: 10rem; }
+.kno_d_cr_page .kno_d_cr_page_row { margin: 0; }
+.kno_d_cr_page .kno_d_cr_page_row .kno_d_cr_page_col { padding: 0; margin: 0; }
+.kno_d_cr_page .kno_d_reg_form_container { padding: 2rem; margin: 3rem 0; }
+.kno_d_cr_page .kno_d_reg_form_container .kno_d_form_title { padding: 0.5rem 2rem; margin-left: 1rem; }
+.kno_d_cr_page .kno_d_reg_form_container .kno_d_form_title span { color: #4b2cb1; }
+.kno_d_cr_page .kno_d_reg_form_container .kno_d_reg_steps .steps:last-child { visibility: hidden; }
+.kno_d_cr_page .kno_d_pro_view_container { background-color: #f7f7f7; padding: 2rem; height: auto; overflow: auto; }
+.kno_d_cr_page .kno_d_pro_view_container .kno_d_jumbotron .coach_tabs { background-color: #f7f7f7; margin: 3rem -1rem 0; padding: 3rem 0 3rem 2rem; }
+
+.kno_d_reg_page_2 .kno_d_jumbotron .card .card-img-top { width: 30%; margin: 2rem auto 0.5rem; }
+.kno_d_reg_page_2 .kno_d_jumbotron .card .linkedin_profile_link { text-align: center; margin-bottom: 2rem; }
+.kno_d_reg_page_2 .kno_d_jumbotron .card .linkedin_profile_link .card-img-top { width: 1.5rem; margin: 0.5rem auto; }
+.kno_d_reg_page_2 .kno_d_jumbotron .card .our_expertise ul li img { width: 4rem; margin: 0.5rem; }
+
+/*************** Institute Registration Page ***************/
+.kno_d_insti_reg_page { margin-bottom: 10rem; }
+.kno_d_insti_reg_page .kno_d_cr_page_row { margin: 0; }
+.kno_d_insti_reg_page .kno_d_cr_page_row .kno_d_cr_page_col { padding: 0; margin: 0; }
+.kno_d_insti_reg_page .kno_d_reg_form_container { padding: 2rem; margin: 3rem 0; }
+.kno_d_insti_reg_page .kno_d_reg_form_container .kno_d_form_title { padding: 0.5rem 2rem; margin-left: 1rem; }
+.kno_d_insti_reg_page .kno_d_reg_form_container .kno_d_form_title span { color: #4b2cb1; }
+.kno_d_insti_reg_page .kno_d_pro_view_container { background-color: #f7f7f7; padding: 2rem; height: auto; overflow: auto; }
+.kno_d_insti_reg_page .kno_d_pro_view_container .kno_d_jumbotron .coach_tabs { background-color: #f7f7f7; margin: 3rem -1rem 0; padding: 3rem 0 3rem 2rem; }
+.kno_d_insti_reg_page .multi_upload label { width: 100%; font-size: 1.2rem; }
+.kno_d_insti_reg_page .multi_upload .thumbnail_img { clear: both; margin: 1rem 0; }
+.kno_d_insti_reg_page .multi_upload .thumbnail_img p { margin-bottom: 0; }
+.kno_d_insti_reg_page .multi_upload .thumbnail_img p span { font-weight: 500; }
+
+/*************** Student Registration Page ***************/
+.kno_d_student_reg_page .kno_d_cr_page_row { margin: 0; }
+.kno_d_student_reg_page .kno_d_cr_page_row .kno_d_cr_page_col { padding: 0; margin: 0; }
+.kno_d_student_reg_page .kno_d_reg_form_container { padding: 2rem; margin: 3rem 0; }
+.kno_d_student_reg_page .kno_d_reg_form_container .kno_d_form_title { padding: 0.5rem 2rem; margin-left: 1rem; }
+.kno_d_student_reg_page .kno_d_reg_form_container .kno_d_form_title span { color: #4b2cb1; }
+.kno_d_student_reg_page .kno_d_pro_view_container { background-color: #f7f7f7; padding: 2rem; height: auto; overflow: auto; }
+.kno_d_student_reg_page .kno_d_pro_view_container .kno_d_jumbotron .coach_tabs { background-color: #f7f7f7; margin: 3rem -1rem 0; padding: 3rem 0 3rem 2rem; }
+.kno_d_student_reg_page .kno_d_jumbotron { height: 65rem; }
+
+/*************** Institute Detailed Profile Page ***************/
+.kno_d_institute_page .kno_d_jumbotron { margin-top: 0; border-top: none; border-left: none; border-right: none; margin-bottom: 0; }
+.kno_d_institute_page .kno_d_jumbotron .kno_d_profile_prew { width: 85%; margin: 0.5rem auto; padding: 0.5rem 0; }
+.kno_d_institute_page .kno_d_jumbotron .kno_d_profile_prew .institute_img_grp .card { margin: 0.5rem 0; padding: 0; }
+.kno_d_institute_page .kno_d_jumbotron .kno_d_profile_prew .card p { font-size: 1rem; }
+.kno_d_institute_page .kno_d_jumbotron .kno_d_profile_prew .card .our_expertise h5 { font-size: 1rem; font-weight: 600; }
+.kno_d_institute_page .kno_d_jumbotron .kno_d_profile_prew .card .our_expertise ul li img { width: 3.5rem; margin: 0.5rem 1rem; }
+.kno_d_institute_page .kno_d_jumbotron .kno_d_profile_prew .card .our_expertise ul li span { font-size: 0.8rem; }
+.kno_d_institute_page .kno_d_section_2 { padding: 3rem 0 3rem; margin: 0rem 0; }
+.kno_d_institute_page .kno_d_section_2 .coaches_container_header { display: flex; flex-wrap: wrap; justify-content: space-between; }
+.kno_d_institute_page .kno_d_section_2 .coaches_container_header .section_title { margin: 1rem 0; }
+.kno_d_institute_page .kno_d_section_2 .coaches_container_header .filters { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; }
+.kno_d_institute_page .kno_d_section_2 .coaches_container_header .filters p { margin: 0.5rem; font-size: 0.8rem; color: #666; }
+.kno_d_institute_page .kno_d_section_2 .coaches_container_header .filters select { border-radius: 0; margin: 0 0.5rem; background-color: transparent; padding: 0.25rem 0.5rem; }
+
+/*************** Coach Detailed Profile Page ***************/
+.kno_d_coach_page { margin-bottom: 10rem; }
+.kno_d_coach_page .kno_d_jumbotron { margin-top: 0; border-top: none; border-left: none; border-right: none; margin-bottom: 0; }
+.kno_d_coach_page .kno_d_jumbotron .kno_d_profile_prew { width: 85%; margin: 2rem auto; padding: 2rem 1rem; }
+.kno_d_coach_page .kno_d_jumbotron .kno_d_profile_prew .linkedin_profile_link { text-align: center; margin-bottom: 1rem; }
+.kno_d_coach_page .kno_d_jumbotron .kno_d_profile_prew .linkedin_profile_link .card-img-top { width: 1.5rem; margin: 0.5rem auto; }
+.kno_d_coach_page .kno_d_jumbotron .kno_d_profile_prew .profile_video_link { text-align: center; }
+.kno_d_coach_page .kno_d_jumbotron .kno_d_profile_prew .profile_video_link svg { padding: 0.275rem; background-color: #4b2cb1; color: #fff; width: 1.5rem; height: 1.5rem; border-radius: 1rem; margin-right: 0.5rem; }
+.kno_d_coach_page .kno_d_jumbotron .kno_d_profile_prew .profile_video_link span { color: #000; }
+.kno_d_coach_page .kno_d_jumbotron .kno_d_profile_prew .coach_detailed_profile { padding: 1rem; }
+.kno_d_coach_page .kno_d_jumbotron .kno_d_profile_prew .coach_detailed_profile .card-title { font-size: 2rem; }
+.kno_d_coach_page .kno_d_jumbotron .kno_d_profile_prew .coach_detailed_profile p { font-size: 1rem; }
+.kno_d_coach_page .kno_d_jumbotron .kno_d_profile_prew .coach_detailed_profile .our_expertise ul li { margin: 0.5rem 1rem; }
+.kno_d_coach_page .kno_d_jumbotron .kno_d_profile_prew .coach_detailed_profile .our_expertise ul li img { width: 5rem; }
+.kno_d_coach_page .kno_d_jumbotron .kno_d_profile_prew .coach_detailed_profile .our_expertise ul li span { font-size: 0.9rem; }
+.kno_d_coach_page .kno_d_jumbotron .kno_d_profile_prew .coach_detailed_profile .grades li .card-text { font-size: 1rem; font-weight: 600; }
+.kno_d_coach_page .kno_d_jumbotron .kno_d_profile_prew .coach_detailed_profile .grades li p { font-size: 1rem; font-weight: 400; }
+.kno_d_coach_page .kno_d_jumbotron .kno_d_profile_prew .coach_detailed_profile .grades li span { font-size: 0.8rem; }
+.kno_d_coach_page .kno_d_jumbotron .kno_d_profile_prew .coach_profile_sidebar { border-bottom: 1px solid #ccc; padding: 1rem 0 0; }
+.kno_d_coach_page .kno_d_jumbotron .kno_d_profile_prew .coach_profile_sidebar .card-header { background-color: #4b2cb1; padding: 0; display: flex; border-radius: 0; }
+.kno_d_coach_page .kno_d_jumbotron .kno_d_profile_prew .coach_profile_sidebar .card-header h4 { color: #fff; font-size: 0.8rem; font-weight: 600; padding: 0.5rem 1rem; margin: 0; }
+.kno_d_coach_page .kno_d_jumbotron .kno_d_profile_prew .coach_profile_sidebar .card-header img { width: 30%; margin-right: 1rem; margin-bottom: -2px; }
+.kno_d_coach_page .kno_d_jumbotron .kno_d_profile_prew .coach_profile_sidebar .card-img-top { width: 40%; margin: auto; }
+.kno_d_coach_page .kno_d_jumbotron .kno_d_profile_prew .coach_profile_sidebar .card-body { padding: 0.5rem 0; }
+.kno_d_coach_page .kno_d_jumbotron .kno_d_profile_prew .coach_profile_sidebar .card-body .card-text { font-size: 1rem; margin: 0.5rem 0 0 0; }
+.kno_d_coach_page .kno_d_jumbotron .kno_d_profile_prew .coach_profile_sidebar .card-body .card-title { font-size: 1rem; color: #4b2cb1; font-weight: 400; }
+.kno_d_coach_page .kno_d_jumbotron .kno_d_profile_prew .coach_profile_sidebar .card-body p { font-size: 0.8rem; margin: 0; }
+.kno_d_coach_page .kno_d_jumbotron .kno_d_profile_prew .coach_profile_sidebar .card-body ul { padding-inline-start: 0.65rem; }
+.kno_d_coach_page .kno_d_jumbotron .kno_d_profile_prew .coach_profile_sidebar .card-body ul li p { font-size: 0.75rem; }
+.kno_d_coach_page .kno_d_jumbotron .kno_d_profile_prew .coach_profile_sidebar .card-footer { background-color: #7b7878; padding: 0.5rem 1rem; border-radius: 0; text-align: center; }
+.kno_d_coach_page .kno_d_jumbotron .kno_d_profile_prew .coach_profile_sidebar .card-footer a { color: #fff; }
+.kno_d_coach_page .kno_d_section_2 { padding: 3rem 0; margin: 0rem 0; }
+.kno_d_coach_page .kno_d_section_2 .coach_tabs { width: 85%; margin: auto; padding: 1rem; }
+.kno_d_coach_page .kno_d_section_2 .coach_tabs .tab-text { font-size: 1rem; width: 80%; margin: 2rem 0; }
+.kno_d_coach_page .kno_d_section_2 .coach_tabs .kno_tab_content_row { height: 35rem; overflow: auto; padding: 0 1rem 0 0; }
+.kno_d_coach_page .kno_d_section_2 .coach_tabs .ask_me_anything { display: flex; flex-wrap: nowrap; margin: 0 0 0 auto; height: auto; overflow: auto; padding: 0.5rem 0.5rem 0; }
+.kno_d_coach_page .kno_d_section_2 .coach_tabs .ask_me_anything img { width: 2rem; margin-right: 0.5rem; }
+.kno_d_coach_page .kno_d_section_2 .coach_tabs .ask_me_anything p { color: #4b2cb1; font-weight: 500; margin: 0; }
+.kno_d_coach_page .coaches_container { width: 50%; margin: 5rem auto; padding: 1rem; }
+.kno_d_coach_page .coaches_container .coaches_container_row { background-color: #f7f7f7; }
+.kno_d_coach_page .coaches_container .coaches_container_row .card-header { padding: 0.5rem; }
+.kno_d_coach_page .coaches_container .coaches_container_row .card-header p { font-size: 0.8rem; }
+.kno_d_coach_page .view_more { text-align: center; margin-top: 1rem; }
+.kno_d_coach_page .view_more a { color: #4b2cb1; font-weight: 500; border-bottom: 1px solid #4b2cb1; }
+
+/*************** Student's & Coach's Activity Page ***************/
+.kno_d_activity_page { width: 85%; margin: 4rem auto 10rem; }
+.kno_d_activity_page .activity_left_sidebar { background-color: #f7f7f7; padding: 1rem; border: 1px solid #ddd; margin-bottom: 1rem; }
+.kno_d_activity_page .activity_left_sidebar ul { list-style: none; padding: 0; }
+.kno_d_activity_page .activity_left_sidebar ul li { margin: 0.5rem 0; padding: 0.5rem; }
+.kno_d_activity_page .activity_left_sidebar ul li a { color: #686868; font-weight: 400; }
+.kno_d_activity_page .activity_left_sidebar ul li a .card-img-top { width: 1.2rem; margin-right: 0.5rem; }
+.kno_d_activity_page .activity_left_sidebar ul li a svg { margin-right: 0.5rem; }
+.kno_d_activity_page .activity_left_sidebar ul li.active a { font-weight: 600; color: #000; }
+.kno_d_activity_page .activity_filter_section .filters_and_subjects .grade_filter { display: flex; flex-wrap: nowrap; justify-content: flex-start; }
+.kno_d_activity_page .activity_filter_section .filters_and_subjects .grade_filter p { padding: 0.375rem; font-weight: 600; margin-bottom: 0rem; }
+.kno_d_activity_page .activity_filter_section .filters_and_subjects .grade_filter .form-group { margin: 0; }
+.kno_d_activity_page .activity_filter_section .filters_and_subjects .grade_filter .form-group .form-control { padding: 0 0.5rem; font-size: 0.9rem; border: none; }
+.kno_d_activity_page .activity_filter_section .filters_and_subjects .grade_filter .form-group .form-control:focus { box-shadow: none; }
+.kno_d_activity_page .activity_filter_section .filters_and_subjects .subject_filter .subject_filter_header { display: flex; flex-wrap: wrap; justify-content: space-between; padding: 0.5rem; }
+.kno_d_activity_page .activity_filter_section .filters_and_subjects .subject_filter .subject_filter_header p { font-weight: 600; margin-bottom: 0; }
+.kno_d_activity_page .activity_filter_section .filters_and_subjects .subject_filter .subject_filter_header a { color: #4b2cb1; font-size: 0.9rem; border-bottom: 1px solid #4b2cb1; }
+.kno_d_activity_page .activity_filter_section .filters_and_subjects .subject_filter .subject_filter_body { overflow: auto; padding: 0.5rem 0; }
+.kno_d_activity_page .activity_filter_section .filters_and_subjects .subject_filter .subject_filter_body ul { list-style: none; padding: 0 0.5rem; width: 150%; }
+.kno_d_activity_page .activity_filter_section .filters_and_subjects .subject_filter .subject_filter_body ul li { width: 6.5rem; margin: 0.5rem 1rem 0.5rem 0; float: left; font-size: 0.8rem; }
+.kno_d_activity_page .activity_filter_section .filters_and_subjects .subject_filter .subject_filter_body ul li input { border-radius: 0; }
+.kno_d_activity_page .activity_filter_section .filters_and_subjects .subject_filter .subject_filter_body::-webkit-scrollbar-track { box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3); background-color: #F5F5F5; }
+.kno_d_activity_page .activity_filter_section .filters_and_subjects .subject_filter .subject_filter_body::-webkit-scrollbar { height: 0.5rem; background-color: #F5F5F5; }
+.kno_d_activity_page .activity_filter_section .filters_and_subjects .subject_filter .subject_filter_body::-webkit-scrollbar-thumb { background-color: #616161; border: none; }
+.kno_d_activity_page .activity_filter_section .filters_and_subjects .activity_logs { margin: 2rem 0; }
+.kno_d_activity_page .activity_filter_section .filters_and_subjects .activity_logs .activity_logs_header { display: flex; flex-wrap: wrap; justify-content: space-between; }
+.kno_d_activity_page .activity_filter_section .filters_and_subjects .activity_logs .activity_logs_header p { font-weight: 600; }
+.kno_d_activity_page .activity_filter_section .filters_and_subjects .activity_logs .activity_logs_header span { font-size: 0.8rem; }
+.kno_d_activity_page .activity_filter_section .filters_and_subjects .activity_logs .activity_logs_header span svg { height: 0.8rem; width: 0.8rem; color: #4b2cb1; }
+.kno_d_activity_page .activity_filter_section .filters_and_subjects .activity_logs .activity_logs_body ul { list-style: none; padding: 0.5rem; }
+.kno_d_activity_page .activity_filter_section .filters_and_subjects .activity_logs .activity_logs_body ul li { border-top: 1px solid #ddd; height: auto; overflow: auto; padding: 0.5rem; }
+.kno_d_activity_page .activity_filter_section .filters_and_subjects .activity_logs .activity_logs_body ul li .log_image { float: left; margin-right: 1rem; }
+.kno_d_activity_page .activity_filter_section .filters_and_subjects .activity_logs .activity_logs_body ul li .log_details { float: left; }
+.kno_d_activity_page .activity_filter_section .filters_and_subjects .activity_logs .activity_logs_body ul li .log_details h4 { font-size: 1rem; margin: 0; color: #4b2cb1; }
+.kno_d_activity_page .activity_filter_section .filters_and_subjects .activity_logs .activity_logs_body ul li .log_details p { font-size: 0.9rem; margin-bottom: 0; }
+.kno_d_activity_page .activity_filter_section .filters_and_subjects .activity_logs .activity_logs_body ul li .log_details span { font-size: 0.8rem; }
+.kno_d_activity_page .activity_filter_section .filters_and_subjects .activity_logs .activity_logs_body ul li .log_icons { float: right; margin: 0.5rem 0; }
+.kno_d_activity_page .activity_filter_section .filters_and_subjects .activity_logs .activity_logs_body ul li .log_icons img { padding: 0.375rem; background-color: #f7f7f7; }
+.kno_d_activity_page .activity_filter_section .filters_and_subjects .activity_logs .activity_logs_body ul li .log_icons svg { font-weight: 600; width: 2rem; color: #999; }
+.kno_d_activity_page .activity_filter_section .filters_and_subjects .activity_logs .activity_logs_body ul li:last-child { border-bottom: 1px solid #ddd; }
+.kno_d_activity_page .activity_filter_section .filters_and_subjects .students_coaches_tab { margin-top: 2rem; }
+.kno_d_activity_page .activity_filter_section .filters_and_subjects .students_coaches_tab .nav-tabs .nav-item.show .nav-link, .kno_d_activity_page .activity_filter_section .filters_and_subjects .students_coaches_tab .nav-tabs .nav-link.active { border-radius: 0; margin-left: 1rem; border-color: #ddd; }
+.kno_d_activity_page .activity_filter_section .filters_and_subjects .students_coaches_tab .nav-tabs .nav-link { border: 1px solid #eee; margin-left: 1rem; border-radius: 0; border-bottom: none; padding: 0.375rem 1.5rem; color: #000; font-size: 0.9rem; }
+.kno_d_activity_page .activity_filter_section .filters_and_subjects .students_coaches_tab .nav-tabs span { margin: 0.5rem 0.5rem 0.5rem auto; font-size: 0.8rem; }
+.kno_d_activity_page .activity_filter_section .filters_and_subjects .students_coaches_tab .nav-tabs span svg { color: #4b2cb1; }
+.kno_d_activity_page .activity_filter_section .filters_and_subjects .students_coaches_tab .tab-content .kno_d_coaches_thumbnail { position: relative; margin: 0 0 1rem 0; }
+.kno_d_activity_page .activity_filter_section .filters_and_subjects .students_coaches_tab .tab-content .kno_d_coaches_thumbnail svg.bi-link-45deg { color: #4b2cb1; width: 1.2rem; height: 1.2rem; position: absolute; top: 0.5rem; right: 0.5rem; }
+.kno_d_activity_page .activity_filter_section .filters_and_subjects .students_coaches_tab .tab-content .kno_d_coaches_thumbnail .card-header { padding: 0.5rem; }
+.kno_d_activity_page .activity_filter_section .filters_and_subjects .students_coaches_tab .tab-content .kno_d_coaches_thumbnail .card-header .card-image { width: 40%; float: left; }
+.kno_d_activity_page .activity_filter_section .filters_and_subjects .students_coaches_tab .tab-content .kno_d_coaches_thumbnail .card-header .coaches_intro h3 { font-size: 0.9rem; margin-bottom: 0; }
+.kno_d_activity_page .activity_filter_section .filters_and_subjects .students_coaches_tab .tab-content .kno_d_coaches_thumbnail .card-header .coaches_intro p { font-size: 0.8rem; margin-bottom: 0; }
+.kno_d_activity_page .activity_filter_section .filters_and_subjects .students_coaches_tab .tab-content .kno_d_coaches_thumbnail .card-body { padding: 0.5rem; }
+.kno_d_activity_page .activity_filter_section .filters_and_subjects .students_coaches_tab .tab-content .kno_d_coaches_thumbnail .card-body p { margin: 0 0 0.5rem 0; font-size: 0.8rem; }
+.kno_d_activity_page .activity_filter_section .filters_and_subjects .students_coaches_tab .tab-content .kno_d_coaches_thumbnail .card-body .reviews { color: #aaa; }
+.kno_d_activity_page .activity_filter_section .filters_and_subjects .students_coaches_tab .tab-content .kno_d_coaches_thumbnail .card-body .reviews svg { width: 0.8rem; height: 0.8rem; }
+.kno_d_activity_page .activity_filter_section .filters_and_subjects .students_coaches_tab .tab-content .kno_d_coaches_thumbnail .card-body .reviews span { font-size: 0.8rem; border-bottom: 1px solid #aaa; }
+.kno_d_activity_page .activity_filter_section .filters_and_subjects .students_coaches_tab .tab-content .kno_d_coaches_thumbnail .card-body .profile_video_link { margin-left: 1rem; color: #000; }
+.kno_d_activity_page .activity_filter_section .filters_and_subjects .students_coaches_tab .tab-content .kno_d_coaches_thumbnail .card-body .profile_video_link svg { color: #fff; background-color: #4b2cb1; padding: 2px; border-radius: 1rem; width: 1rem; height: 1rem; }
+.kno_d_activity_page .activity_filter_section .filters_and_subjects .students_coaches_tab .tab-content .kno_d_coaches_thumbnail .card-body .profile_video_link span { font-size: 0.8rem; }
+.kno_d_activity_page .activity_filter_section .filters_and_subjects .students_coaches_tab .tab-content .kno_d_coaches_thumbnail .card-footer { margin-top: 1rem; }
+.kno_d_activity_page .activity_filter_section .filters_and_subjects .students_coaches_tab .tab-content .kno_d_coaches_thumbnail .card-footer .btn { font-size: 0.8rem; font-weight: 600; }
+.kno_d_activity_page .activity_filter_section .filters_and_subjects .students_coaches_tab .tab-content .kno_d_coaches_thumbnail .card-footer .btn img { width: 2rem; margin-bottom: -0.4rem; margin-left: 0.5rem; }
+.kno_d_activity_page .activity_filter_section .filters_and_subjects .students_coaches_tab .tab-content .input-group { margin-top: 1rem; width: 50%; }
+.kno_d_activity_page .activity_filter_section .filters_and_subjects .students_coaches_tab .tab-content .input-group .input-group-prepend span { border-radius: 0; background: transparent; }
+.kno_d_activity_page .activity_filter_section .filters_and_subjects .students_coaches_tab .tab-content .input-group input { border-radius: 0; border-left: 0; }
+.kno_d_activity_page .activity_right_sidebar .card { background-color: #f7f7f7; border: 1px solid #ddd; margin-bottom: 1rem; border-radius: 0; padding: 0.5rem; }
+.kno_d_activity_page .activity_right_sidebar .card .card-header { background-color: transparent; border: none; padding: 0.5rem 1rem; }
+.kno_d_activity_page .activity_right_sidebar .card .card-header svg { float: left; margin: 0.375rem 1.5rem 1rem 0; }
+.kno_d_activity_page .activity_right_sidebar .card .card-header h5 { font-weight: 400; margin: 0; font-size: 1rem; }
+.kno_d_activity_page .activity_right_sidebar .card .card-header p { font-size: 0.8rem; margin-bottom: 0; }
+.kno_d_activity_page .activity_right_sidebar .card .card-header a { color: #4b2cb1; font-size: 0.8rem; border-bottom: 1px solid #4b2cb1; }
+.kno_d_activity_page .activity_right_sidebar .card:first-child a { margin-left: 2.5rem; }
+.kno_d_activity_page .activity_right_sidebar .your_stats .card-header svg { margin: 0 1.5rem 0 0; }
+.kno_d_activity_page .activity_right_sidebar .your_stats ul { list-style: none; padding: 0.5rem 1rem; margin-bottom: 0; }
+.kno_d_activity_page .activity_right_sidebar .your_stats ul li { font-size: 0.9rem; margin: 0.5rem 0; }
+
+/****************************************** MEDIA QUERIES *********************************************/
+@media only screen and (min-width: 1020px) and (max-width: 1260px) { .kno_d_home_page .kno_d_section_1 h3 { font-size: 2rem; }
+  .kno_d_coaches_thumbnail { padding: 1rem 0 0 1rem; }
+  .kno_d_jumbotron .kno_d_profile_prew .card .our_expertise ul li img { width: 4rem; }
+  .kno_d_jumbotron .kno_d_profile_prew .card .our_expertise ul li span { font-size: 0.8rem; }
+  .kno_d_jumbotron .kno_d_profile_prew .card .grades li span, .kno_d_jumbotron .kno_d_profile_prew .card .grades li p { font-size: 0.8rem; }
+  .kno_d_cr_page { margin-bottom: 3rem; }
+  .kno_d_cr_page .kno_d_reg_form_container { padding: 1rem; }
+  .kno_d_cr_page .kno_d_reg_form_container .kno_d_form_title { padding: 0; margin-left: 0; font-size: 1.5rem; }
+  .kno_d_reg_steps { margin: 2rem 0; }
+  .kno_d_reg_form { padding: 0.5rem; margin-left: 0; }
+  .kno_d_reg_form .btn_main { margin: 2rem 0; }
+  .kno_d_reg_form .check_buttons label { padding: 0.5rem 1.5rem; } }
+@media only screen and (min-width: 561px) and (max-width: 1020px) { .kno_d_jumbotron .kno_d_profile_prew .card .our_expertise ul li img { width: 4rem; } }
+@media only screen and (max-width: 770px) { .navbar-nav:last-child { display: flex; flex-flow: wrap; justify-content: flex-start; }
+  .kno_d_home_page .kno_d_section_1 p { font-size: 1rem; }
+  .kno_d_home_page .kno_d_section_1 p svg { margin: 0; }
+  .kno_d_home_page .kno_d_section_1 .kno_d_question_section { padding: 1rem; }
+  .kno_d_home_page .kno_d_section_1 h3 { font-size: 1.5rem; }
+  .kno_d_home_page .kno_d_section_4 .section_title { font-size: 1.5rem; }
+  .kno_d_home_page .kno_d_question_section .dropdown { margin-bottom: 0.5rem; }
+  .kno_d_home_page .kno_d_section_2 .coaches_container, .kno_d_home_page .kno_d_section_4 { width: 100%; padding: 0 1rem; }
+  .kno_d_home_page .kno_d_section_2 .coaches_container .coaches_container_row { padding-right: 0; }
+  .kno_d_home_page .kno_d_section_2 .coaches_container .section_title { margin-bottom: 1rem; }
+  .kno_d_home_page .kno_d_section_4 p { font-size: 1rem; width: 100%; }
+  .kno_d_jumbotron .kno_d_profile_prew .card .our_expertise ul li span { font-size: 0.8rem; }
+  .kno_d_jumbotron .kno_d_profile_prew .card .grades li span, .kno_d_jumbotron .kno_d_profile_prew .card .grades li p { font-size: 0.8rem; } }
+@media only screen and (max-width: 560px) { .kno_d_cr_page, .kno_d_insti_reg_page { margin-bottom: 3rem; }
+  .kno_d_cr_page .kno_d_reg_form_container, .kno_d_insti_reg_page .kno_d_reg_form_container { padding: 1rem; }
+  .kno_d_cr_page .kno_d_reg_form_container .kno_d_form_title { padding: 0; margin-left: 0; font-size: 1.5rem; }
+  .kno_d_reg_steps { margin: 2rem 0; }
+  .kno_d_reg_form { padding: 0.5rem; margin-left: 0; }
+  .kno_d_reg_form .btn_main { margin: 2rem 0; }
+  .kno_d_jumbotron .kno_d_profile_prew .card-img-top { width: 50%; margin: 2rem auto; }
+  .kno_d_cr_page .kno_d_pro_view_container { padding: 2rem 1rem; }
+  .kno_d_jumbotron .kno_d_profile_prew .card .our_expertise .card-img-top { width: auto; margin: 0; }
+  .kno_d_jumbotron .kno_d_profile_prew .card .our_expertise ul li span { font-size: 0.8rem; }
+  .kno_d_jumbotron .kno_d_profile_prew .card .grades li span, .kno_d_jumbotron .kno_d_profile_prew .card .grades li p { font-size: 0.8rem; }
+  .kno_d_cr_page .kno_d_pro_view_container .kno_d_jumbotron .coach_tabs { padding: 2rem 1rem; }
+  .coach_tabs .nav-tabs .nav-link { padding: 0.375rem 0.5rem; }
+  .kno_d_reg_form .check_buttons label { padding: 0.5rem 1rem; margin: 0.5rem 0; }
+  .kno_d_insti_reg_page .kno_d_reg_form_container .kno_d_form_title { padding: 0.5rem 0rem; margin-left: 0; font-size: 1.5rem; }
+  .kno_d_insti_reg_page .kno_d_pro_view_container { padding: 1rem; }
+  .kno_d_jumbotron { margin-top: 2rem; }
+  .kno_d_jumbotron .kno_d_profile_prew .card .profile_head img { margin: 0; }
+  .kno_d_jumbotron .kno_d_profile_prew .card .institute_img_grp img { width: 100%; }
+  .kno_d_coach_page .kno_d_jumbotron { padding: 0; }
+  .kno_d_coach_page .kno_d_jumbotron .kno_d_profile_prew { width: 100%; margin: 2rem auto; padding: 1rem 0; }
+  .kno_d_coach_page .kno_d_jumbotron .kno_d_profile_prew .coach_profile_sidebar { padding: 1rem; }
+  .kno_d_coach_page .kno_d_jumbotron .kno_d_profile_prew .coach_profile_sidebar .card-body ul li p { font-size: 0.8rem; } }
+
+/*# sourceMappingURL=style.css.map */
