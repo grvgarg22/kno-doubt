@@ -351,7 +351,7 @@ a:hover { text-decoration: none; }
 /****************************************** MEDIA QUERIES *********************************************/
 @media only screen and (min-width: 1020px) and (max-width: 1260px) { .kno_d_home_page .kno_d_section_1 h3 { font-size: 2rem; }
   .kno_d_coaches_thumbnail { padding: 1rem 0 0 1rem; }
-  .kno_d_jumbotron .kno_d_profile_prew .card .our_expertise ul li img { width: 4rem; }
+  .kno_d_jumbotron .kno_d_profile_prew .card .our_expertise ul li img { width: 3rem; }
   .kno_d_jumbotron .kno_d_profile_prew .card .our_expertise ul li span { font-size: 0.8rem; }
   .kno_d_jumbotron .kno_d_profile_prew .card .grades li span, .kno_d_jumbotron .kno_d_profile_prew .card .grades li p { font-size: 0.8rem; }
   .kno_d_cr_page { margin-bottom: 3rem; }
@@ -406,6 +406,7 @@ a:hover { text-decoration: none; }
   .kno_d_jumbotron .kno_d_profile_prew .card .our_expertise ul li span { font-size: 0.8rem; }
   .kno_d_jumbotron .kno_d_profile_prew .card .grades li span, .kno_d_jumbotron .kno_d_profile_prew .card .grades li p { font-size: 0.8rem; }
   .kno_d_cr_page .kno_d_pro_view_container .kno_d_jumbotron .coach_tabs { padding: 2rem 1rem; }
+  .kno_d_cr_page .kno_d_jumbotron .kno_d_profile_prew .card .our_expertise ul { justify-content: flex-start; }
   .coach_tabs .nav-tabs .nav-link { padding: 0.375rem 0.5rem; }
   .kno_d_reg_form .check_buttons label { padding: 0.5rem 1rem; margin: 0.5rem 0; }
   .kno_d_insti_reg_page .kno_d_reg_form_container .kno_d_form_title { padding: 0.5rem 0rem; margin-left: 0; font-size: 1.5rem; }
@@ -431,7 +432,7 @@ a:hover { text-decoration: none; }
   .kno_d_coach_page .coach_tabs .tab-content .card .card-body .card-title { font-size: 1rem; }
   .kno_d_institute_page .kno_d_jumbotron .kno_d_profile_prew .card-img-top { width: 100%; margin: 0.5rem 0; }
   .kno_d_institute_page .kno_d_jumbotron .kno_d_profile_prew { width: 100%; }
-  .kno_d_jumbotron .kno_d_profile_prew .card .our_expertise ul { justify-content: space-between; }
+  .kno_d_institute_page .kno_d_jumbotron .kno_d_profile_prew .card .our_expertise ul { justify-content: space-between; }
   .kno_d_institute_page .kno_d_jumbotron .kno_d_profile_prew .card .our_expertise ul li img { margin: 0; }
   .kno_d_institute_page .kno_d_section_2 .coaches_container_header .filters select { margin: 0.5rem; width: 45%; }
   .kno_d_coaches_thumbnail .card-header .card-image { width: 40%; float: left; margin-right: 0.5rem; }
