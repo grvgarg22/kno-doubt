@@ -453,6 +453,7 @@
 	.kno_d_institute_page .kno_d_jumbotron .kno_d_profile_prew {width: 100%;}	
 	.kno_d_institute_page .kno_d_jumbotron .kno_d_profile_prew .card .our_expertise ul {justify-content: flex-start;}
 	.kno_d_coach_page .kno_d_section_2 .coach_tabs .tab-content .card .card-body .card-title {font-size: 0.8rem;}
+	.kno_d_activity_page .activity_right_sidebar .card:nth-child(2) {display: none;}
 }
 
 @media only screen and (max-width: 990px) {
@@ -531,4 +532,12 @@
 	}
 	.kno_d_student_reg_page .kno_d_reg_form_container .kno_d_form_title {padding: 0.5rem; margin-left: 0; font-size: 1.5rem;}
 	.kno_d_student_reg_page .kno_d_reg_form_container {padding: 1rem;}
+	.kno_d_activity_page {width: 100%; padding: 1rem; margin: 0rem auto 3rem;}
+	.kno_d_activity_page .activity_filter_section .filters_and_subjects .subject_filter .subject_filter_body ul {width: 240%;}
+	.kno_d_activity_page .activity_left_sidebar ul {display: flex; flex-wrap: wrap; justify-content: space-evenly; margin: 0;}
+	.kno_d_activity_page .activity_left_sidebar ul li a .card-img-top {width: 2rem; margin: 0;}
+	.kno_d_activity_page .activity_left_sidebar ul li a svg {width: 2rem; height: 2rem; margin: 0;}
+	.kno_d_activity_page .activity_left_sidebar ul li a span {display: none;}
+	.kno_d_activity_page .activity_filter_section .filters_and_subjects .students_coaches_tab .nav-tabs span {display: none;}
+	.kno_d_activity_page .activity_filter_section .filters_and_subjects .students_coaches_tab .nav-tabs .nav-link {padding: 0.5rem;}
 }
